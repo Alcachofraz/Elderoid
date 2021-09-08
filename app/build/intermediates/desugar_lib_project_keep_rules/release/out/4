@@ -1,0 +1,1 @@
+-keep class j$.util.function.Consumer

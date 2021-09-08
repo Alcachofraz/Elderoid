@@ -1,0 +1,19 @@
+-keep class j$.util.function.Consumer {
+    void accept(java.lang.Object);
+}
+-keep class j$.time.temporal.TemporalAmount
+-keep class j$.time.Period {
+    j$.time.Period ofDays(int);
+}
+-keep class j$.time.LocalDateTime {
+    j$.time.LocalDateTime minus(j$.time.temporal.TemporalAmount);
+    java.lang.String format(j$.time.format.DateTimeFormatter);
+    int compareTo(j$.time.chrono.ChronoLocalDateTime);
+    j$.time.LocalDateTime parse(java.lang.CharSequence, j$.time.format.DateTimeFormatter);
+    j$.time.LocalDateTime now();
+    java.lang.String toString();
+}
+-keep class j$.time.chrono.ChronoLocalDateTime
+-keep class j$.time.format.DateTimeFormatter {
+    j$.time.format.DateTimeFormatter ofPattern(java.lang.String);
+}

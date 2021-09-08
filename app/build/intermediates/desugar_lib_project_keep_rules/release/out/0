@@ -1,0 +1,3 @@
+-keep class j$.util.function.Consumer {
+    void accept(java.lang.Object);
+}

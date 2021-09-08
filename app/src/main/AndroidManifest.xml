@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.alcachofra.elderoid">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:name="com.alcachofra.elderoid.Elderoid"
+        android:allowBackup="false"
+        android:fullBackupContent="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.elderoid">
+
+        <provider
+            android:name="com.alcachofra.elderoid.utils.GenericFileProvider"
+            android:authorities="com.alcachofra.elderoid.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name="com.alcachofra.elderoid.FakeLauncherActivity"
+            android:enabled="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.alcachofra.elderoid.PhotoActivity" />
+        <activity
+            android:name="com.alcachofra.elderoid.configuration.GameSuggestionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alcachofra.elderoid.configuration.CallsConfigurationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alcachofra.elderoid.configuration.ContactsConfigurationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alcachofra.elderoid.configuration.MessagesConfigurationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alcachofra.elderoid.configuration.AppsConfigurationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alcachofra.elderoid.configuration.FlashlightConfigurationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alcachofra.elderoid.configuration.PhotosConfigurationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alcachofra.elderoid.configuration.WeatherConfigurationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alcachofra.elderoid.configuration.LangConfigurationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alcachofra.elderoid.configuration.WelcomeConfigurationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alcachofra.elderoid.configuration.UserConfigurationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alcachofra.elderoid.configuration.FeaturesConfigurationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alcachofra.elderoid.configuration.ChooseAppsConfigurationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alcachofra.elderoid.configuration.PermissionsConfigurationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alcachofra.elderoid.configuration.LauncherConfigurationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alcachofra.elderoid.configuration.FinishConfigurationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alcachofra.elderoid.ContactListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alcachofra.elderoid.AppListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alcachofra.elderoid.DialerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alcachofra.elderoid.WeatherForecastActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alcachofra.elderoid.GalleryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alcachofra.elderoid.CallLogActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alcachofra.elderoid.MissedCallsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alcachofra.elderoid.AddContactActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alcachofra.elderoid.SettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alcachofra.elderoid.MenuActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true"
+            android:theme="@style/Theme.elderoid">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

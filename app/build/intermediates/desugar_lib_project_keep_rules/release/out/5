@@ -1,0 +1,19 @@
+-keep class j$.util.function.Consumer$-CC {
+    j$.util.function.Consumer $default$andThen(j$.util.function.Consumer, j$.util.function.Consumer);
+}
+-keep class j$.util.function.Consumer { *; }
+-keep class j$.util.Comparator$-CC {
+    java.util.Comparator reverseOrder();
+}
+-keep class j$.time.LocalTime {
+    int getHour();
+    j$.time.LocalTime now();
+}
+-keep class j$.time.format.DateTimeFormatter {
+    j$.time.format.DateTimeFormatter ofPattern(java.lang.String);
+}
+-keep class j$.time.LocalDate {
+    java.lang.String format(j$.time.format.DateTimeFormatter);
+    j$.time.LocalDate now();
+    boolean equals(java.lang.Object);
+}

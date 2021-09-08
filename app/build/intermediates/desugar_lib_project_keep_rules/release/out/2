@@ -1,0 +1,25 @@
+-keep class j$.util.function.Consumer {
+    void accept(java.lang.Object);
+}
+-keep class j$.time.DayOfWeek {
+    j$.time.DayOfWeek WEDNESDAY;
+    j$.time.DayOfWeek THURSDAY;
+    j$.time.DayOfWeek SATURDAY;
+    j$.time.DayOfWeek FRIDAY;
+    j$.time.DayOfWeek TUESDAY;
+    j$.time.DayOfWeek MONDAY;
+    j$.time.DayOfWeek[] values();
+    int ordinal();
+}
+-keep class j$.time.Month
+-keep class j$.time.format.DateTimeFormatter {
+    j$.time.format.DateTimeFormatter ofPattern(java.lang.String);
+}
+-keep class j$.time.LocalDate {
+    j$.time.LocalDate parse(java.lang.CharSequence, j$.time.format.DateTimeFormatter);
+    int getDayOfMonth();
+    j$.time.Month getMonth();
+    j$.time.LocalDate now();
+    int getYear();
+    j$.time.DayOfWeek getDayOfWeek();
+}

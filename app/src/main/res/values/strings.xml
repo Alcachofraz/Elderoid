@@ -1,0 +1,332 @@
+<resources>
+    <!-- Name of the App -->
+    <string name="app_name">Elderoid</string>
+
+    <!-- Today weather status -->
+    <string name="weather_sunny">It\'s a sunny day</string>
+    <string name="weather_sunny_cloudy">The sun shines, but with some clouds</string>
+    <string name="weather_cloudy">The sun is covered by some clouds</string>
+    <string name="weather_heavy_cloudy">The sun is covered by black clouds</string>
+    <string name="weather_rainy">It\'s a rainy day</string>
+    <string name="weather_sunny_rainy">The sun shines, but with some rain</string>
+    <string name="weather_stormy">It\'s storming</string>
+    <string name="weather_snowy">It\'s snowing</string>
+    <string name="weather_misty">It\'s fog</string>
+
+    <!-- Forecast weather status (where %s is the day of the week) -->
+    <string name="forecast_sunny">%s will be one sunny day</string>
+    <string name="forecast_sunny_cloudy">%s will be a sunny day, but with some clouds</string>
+    <string name="forecast_cloudy">%s, the sun will be covered by some clouds</string>
+    <string name="forecast_heavy_cloudy">%s, the sun will be covered by black clouds</string>
+    <string name="forecast_rainy">%s will be a day of rain</string>
+    <string name="forecast_sunny_rainy">%s, the sun will shine, but with some rain</string>
+    <string name="forecast_stormy">%s will be a day of storm</string>
+    <string name="forecast_snowy">%s, snow will fall</string>
+    <string name="forecast_misty">%s will be a foggy day</string>
+
+    <!-- Configuration Phase information -->
+    <string name="config_choose_lang">Choose language</string>
+    <string name="config_lang">Welcome!</string>
+    <string name="config_calls">If you wish to phone your family and friends, this feature is essential!</string>
+    <string name="config_contacts">With this feature, you will be able to save the phone number of your favourite people.</string>
+    <string name="config_messages">If you\'d like to send messages to your friends and family, accept this feature!</string>
+    <string name="config_apps_1">If you like games, this feature is for you!</string>
+    <string name="config_apps_2">With this feature, you will be able to use social media too.</string>
+    <string name="config_weather">If you use this feature, you will know what the weather will be for the following days.</string>
+    <string name="config_news">With this feature, I can show you articles about cooking, for example! Or sports!</string>
+    <string name="config_photos">This feature allows you to take photographs of your favourite people and things!</string>
+    <string name="config_flashlight">If you run out of light, you can use this feature.</string>
+    <string name="config_welcome_1">Hello! My name is Netie, and I will help you configure Elderoid. Click on the button to continue.</string>
+    <string name="config_welcome_2">Whenever you want, you can click on me for help.</string>
+    <string name="config_welcome_3">That\'s it! Very good.</string>
+    <string name="config_welcome_4">Alright, you can stop now.</string>
+    <string name="config_welcome_5">Please, you are hurting me...</string>
+    <string name="config_welcome_6">Just kidding! You can click on me as much as you want!</string>
+    <string name="config_user_1">What should I call you? First name is enough.</string>
+    <string name="config_user_2">You can choose your language too.</string>
+    <string name="config_username_error">Write a name at least 3 characters long.</string>
+    <!-- %s is the username -->
+    <string name="config_features_1">Very well, %s. Now I\'ll show you some features. Accept only the ones you wish to use.</string>
+    <string name="config_features_2">If all you want to do is make phone calls, you only have to accept that feature.</string>
+    <string name="config_features_3">You can select more features later, if you don\'t want to try all of them now!</string>
+    <string name="config_temp_scale_1">Click the switch to change the temperature scale.</string>
+    <string name="config_temp_scale_2">On the left you select degrees Celsius, and on the right degrees Fahrenheit.</string>
+    <string name="config_news_topics_1">Choose the topics you want the news to be about.</string>
+    <string name="config_news_topics_2">You can also add a topic of your choice.</string>
+    <string name="config_choose_apps_1">Here you can choose the installed apps that will be available in the application. Games, for example.</string>
+    <string name="config_choose_apps_2">These are all the applications that are installed. Choose the ones you want to see inside Elderoid.</string>
+    <string name="config_choose_apps_3">I have some game suggestions for you. Do you want to take a look?</string>
+    <string name="config_apps_add">Do you want to install new games or applications?</string>
+    <string name="config_permissions_1">Now you will have to provide some permissions for the application to work correctly.</string>
+    <string name="config_permissions_2">Several text boxes will appear. You have to accept everything for Elderoid to work properly.</string>
+    <string name="config_permissions_not_yet">You haven\'t provided the necessary permissions yet. Click on the button to allow.</string>
+    <string name="config_permissions_granted">Permissions obtained.</string>
+    <string name="config_permissions_not_granted">Permissions not obtained.</string>
+    <string name="config_launcher_1">We\'re almost there! Click the configure button and select Elderoid as the default Launcher App.</string>
+    <string name="config_launcher_2">Select Elderoid as Home App.</string>
+    <string name="config_launcher_3">If you are using an older device, you may have to go to settings manually.</string>
+    <string name="config_launcher_default_apps_settings">We\'re so close! Click the configure button and select Elderoid as the default Launcher App.</string>
+    <string name="config_launcher_not_yet">You haven\'t configured the Home App yet. You have to choose the Elderoid option.</string>
+    <string name="config_launcher_already">It\'s already set up. You can continue.</string>
+    <string name="config_proceed">You can continue.</string>
+    <string name="config_finish">It\'s done! You can start using Elderoid.</string>
+    <string name="config_error">An error has occurred. You have to configure it again.</string>
+    <!-- First %s is the USE button, the second %s is the REJECT button -->
+    <string name="config_accept_reject">Click %s to use this feature. Click %s otherwise.</string>
+
+    <!-- Permissions -->
+    <string name="permission_list">Elderoid will:\n\t1. Access contacts;\n\t2. Make and manage phone calls;\n\t3. Access phone call logs;\n\t4. Access camera;\n\t5. Access location;\n\t6. Access photos and media;\n\t7. See and send messages.</string>
+    <string name="elderoid_will">Elderoid will:</string>
+
+    <!-- Activity information -->
+    <string name="calendar">If you like, choose a day and write a reminder. Then click on the button to add.</string>
+    <string name="the_time_is">It\'s</string>
+    <string name="choose_app_1">Choose an app to open.</string>
+    <string name="choose_app_2">This is where you can choose a game to play!</string>
+    <string name="choose_app_3">Do you want to add new apps?</string>
+    <string name="call_log_1">Click on a call to see the details.</string>
+    <string name="call_log_2">Do you want to see only the calls you missed?</string>
+    <string name="no_call_log">You haven\'t made a call yet. Do you want to call someone?</string>
+    <string name="missed_calls_1">Click on the phone button to call back.</string>
+    <string name="missed_calls_2">Do you want to see all the calls, including the ones you answered?</string>
+    <string name="no_missed_calls">You have no missed calls!</string>
+    <string name="call_contact_1">Who do you want to call? Click on the phone symbol.</string>
+    <string name="call_contact_2">Choose someone to call, and tell them the news!</string>
+    <string name="call_contact_3">Do you want to add a new contact?</string>
+    <string name="added_contact">Contact added!</string>
+    <string name="removed_contact">Contact removed!</string>
+    <string name="no_contacts">You have no contacts saved. Do you want to add one?</string>
+    <string name="add_contact_1">To add a contact, you just have to write the name and the phone number.</string>
+    <string name="add_contact_2">That way, you can call someone without having to dial the number!</string>
+    <string name="dial_number">Enter the phone number you want to call.</string>
+    <string name="phone_contact">Do you wish to call a known contact?</string>
+    <string name="gallery_1">What beautiful pictures! Click one of them to open it.</string>
+    <string name="gallery_2">Do you want to take a new photo?</string>
+    <string name="no_photos">You don\'t have any photos saved. Do you want to take one?</string>
+    <string name="photo_saved_menu">Photo saved! Do you want to see it in the gallery?</string>
+    <string name="photo_saved_gallery">Photo saved!</string>
+    <string name="forecast_1">Click on a day and I\'ll tell you what the weather will be.</string>
+    <string name="forecast_2">This is the weather forecast for the coming days in your area.</string>
+    <string name="news_1">Here\'s where you can read some news!</string>
+    <string name="news_2">Click on a new to see the full article.</string>
+    <string name="news_3">These news are boring you? You can change the topics.</string>
+    <string name="settings_1">If you don\'t know what you\'re doing, go back. This could break Elderoid.</string>
+    <string name="settings_2">Here you can change some aspects of Elderoid. I advise you to ask someone for help.</string>
+    <string name="missed_calls">You have some missed calls. Want to see who called you?</string>
+    <string name="photo_zoom">To zoom, put two fingers on the picture, and push them away from each other.</string>
+    <string name="photo_good">This is a great photo!</string>
+    <string name="new_games">Do you want to try new games?</string>
+    <string name="game_suggestions">Here are some game suggestions. Click install to try one.</string>
+    <string name="click_see_more">Click see more to search for more games.</string>
+    <string name="do_you_want_to_install">Do you want to install?</string>
+    <string name="day_went_well">Good! I\'m glad you\'re happy.</string>
+    <string name="day_went_bad">Oh no! Don\'t worry, tomorrow will be better.</string>
+    <!-- The 1st %s is the contact name or number, the 2nd %s is the date, the 3rd %s is the time, and the 4th %s is the duration. -->
+    <string name="format_outgoing_call">Call sent to %s on %s at %s. Lasted %s.</string>
+    <!-- The 1st %s is the contact name or number, the 2nd %s is the date, the 3rd %s is the time, and the 4th %s is the duration. -->
+    <string name="format_incoming_call">Call received from %s on %s at %s. Lasted %s.</string>
+    <!-- The 1st %s is the contact name or number, the 2nd %s is the date, and the 3rd %s is the time. -->
+    <string name="format_missed_call">Missed call from %s on %s at %s.</string>
+    <!-- %s is the temperature + temperature scale -->
+    <string name="weather_temperature">It\'s %s, in your region</string>
+    <string name="want_to_see_tomorrow_weather">Do you want to see the weather for tomorrow?</string>
+    <string name="i_can_help_you">Remember, you can click on me for help!</string>
+    <string name="topic_added">Topic added!</string>
+    <string name="topic_removed">Topic removed!</string>
+    <string name="your_name_is_now">Your name is now %s!</string>
+    <string name="click_to_see_more">Click to see more.</string>
+    <string name="accept">ACCEPT</string>
+    <string name="reject">REJECT</string>
+
+    <!-- Main Page Nétie Advice Cue Pool -->
+    <string name="cue_call">Do you want to dial a number to call?</string>
+    <string name="cue_contacts">Do you want to call someone you know?</string>
+    <string name="cue_weather">How is the weather going to be this week?</string>
+    <string name="cue_camera">Do you want to take a picture?</string>
+    <string name="cue_apps">Feel like playing a game?</string>
+    <string name="cue_gallery">Do you want to see your photos?</string>
+    <string name="cue_call_log">You can view your call log if you like.</string>
+    <string name="cue_messages">Do you want to send a message to someone?</string>
+
+    <!-- Window titles -->
+    <string name="title_config_welcome">Welcome</string>
+    <string name="title_config_name">Your name</string>
+    <string name="title_config_features">Features</string>
+    <string name="title_config_temp_scale">Temperature Scale</string>
+    <string name="title_config_apps">Apps</string>
+    <string name="title_config_permissions">Permissions</string>
+    <string name="title_config_launcher">Configure Home App</string>
+    <string name="title_config_finish">Everything is Ready</string>
+    <string name="title_app_list">Applications</string>
+    <string name="title_contact_list">Contacts</string>
+    <string name="title_dialer">Dial a Number</string>
+    <string name="title_weather_forecast">Weather Forecast</string>
+    <string name="title_add_contact">Add Contact</string>
+    <string name="title_photos">Photos</string>
+    <string name="title_missed_calls">Missed calls</string>
+    <string name="title_call_log">Call Log</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_news">News</string>
+    <string name="title_new_topics">News Topics</string>
+    <string name="title_game_suggestions">Game Sugestions</string>
+
+    <!-- Errors -->
+    <string name="internet_needed">You need Internet Connection to see the Weather</string>
+    <string name="temp_not_working">Weather is not working at the moment.</string>
+    <string name="no_flashlight">Your device does not have a flashlight. You cannot use this feature.</string>
+    <string name="no_camera">Your device does not have a camera. You cannot use this feature.</string>
+    <string name="camera_not_working">Camera is not working.</string>
+    <string name="photo_canceled">You left the camera. You didn\'t take any pictures.</string>
+    <string name="photo_save_error">An error has occurred. The photo has not been saved.</string>
+    <string name="photo_error">An error has occurred while trying to open this photo.</string>
+    <string name="no_func_selected">You have not selected any features.</string>
+    <string name="wait">Wait a moment...</string>
+    <string name="no_apps_1">You have no applications. Do you want to add one?</string>
+    <string name="no_apps_2">You can ask someone for help to install games, for example.</string>
+    <string name="add_contact_error">An error occurred. Are you sure you wrote the correct name and phone number?</string>
+    <string name="entering_settings">Are you sure you want to tweak the options? I may stop working properly.</string>
+    <string name="refused_settings">If you think something is wrong, try talking to someone who understands mobile phones.</string>
+    <string name="remove_contact_error">I was unable to eliminate this contact. Perhaps it no longer exists.</string>
+    <string name="error_news">News are not working. Do you want to try again?</string>
+    <string name="definitely_error_news">Doesn\'t work. Maybe it\'s an Internet problem.</string>
+    <string name="no_news">I couldn\'t find any recent news. Do you want to change the topics?</string>
+    <string name="number_not_valid">This phone number is not valid.</string>
+    <string name="name_not_valid">Write a name with at least 3 letters.</string>
+    <string name="word_not_valid">Invalid word.</string>
+    <string name="google_play_error">An error occurred while trying to start Google Play Store.</string>
+    <string name="messages_error">Can\'t find any SMS messaging apps in your phone.</string>
+
+    <!-- Days of week -->
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+
+    <!-- Greetings (where %s is the username) -->
+    <string name="greeting_morning">Good morning, %s.</string>
+    <string name="greeting_afternoon">Good afternoon, %s.</string>
+    <string name="greeting_evening">Good night, %s.</string>
+    <string name="how_was_today">"How was your day?"</string>
+
+    <!-- Battery status (where %s is the battery percentage) -->
+    <string name="battery_low">Battery is very low. You have to charge it!</string>
+    <string name="battery_status">Battery is at %s%%.</string>
+    <string name="battery_must_charge">"You have to charge it!"</string>
+
+    <!-- News Topics -->
+    <string name="topic_gastronomy">Gastronomy</string>
+    <string name="topic_sports">Sports</string>
+    <string name="topic_technology">Technology</string>
+    <string name="topic_economy">Economy</string>
+    <string name="topic_leisure">Leisure</string>
+    <string name="topic_politics">Politics</string>
+    <string name="topic_beauty">Beauty</string>
+    <string name="topic_famous">Famous</string>
+    <string name="topic_music">Music</string>
+
+    <!-- Options -->
+    <string name="disable_elderoid">Disable Elderoid</string>
+    <string name="enable_elderoid">Enable Elderoid</string>
+    <string name="change_features">Change Features</string>
+    <string name="change_news_topics">Change News Topics</string>
+    <string name="change_name">Change Name</string>
+
+    <!-- App Categories -->
+    <string name="category_social">Social Networks</string>
+    <string name="category_game">Games</string>
+    <string name="category_other">Other</string>
+
+    <!-- Miscellaneous -->
+    <string name="proceed">Continue</string>
+    <string name="settings">Settings</string>
+    <string name="allow">Allow</string>
+    <string name="name">Name</string>
+    <string name="see">See</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="good">Good</string>
+    <string name="bad">Bad</string>
+    <string name="start">Start</string>
+    <string name="add">Add</string>
+    <string name="reminder">Reminder</string>
+    <string name="back">Back</string>
+    <string name="call">Call</string>
+    <string name="phone">Telephone</string>
+    <string name="call_label">Call</string>
+    <string name="today">Today</string>
+    <string name="change">Change</string>
+    <string name="topic">Topic</string>
+    <string name="language">Language</string>
+    <string name="of">of</string>
+    <string name="see_more"><u>SEE MORE</u></string>
+    <string name="install"><u>INSTALL</u></string>
+
+    <!-- Dialogs -->
+    <string name="dialog_attention">Attention!</string>
+    <string name="dialog_weather_message">For the Weather to work, I will need to access the Internet and Location.\n\nChoose how you want to view the temperature:"</string>
+    <string name="dialog_got_it">Got it</string>
+    <string name="dialog_ready">Ready</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_low_battery">Low battery!</string>
+    <string name="dialog_charge_battery">You have to connect your device to the plug. You are running out of battery.</string>
+    <string name="dialog_no_connection">You have no Internet connection!</string>
+    <string name="dialog_no_connection_message">Maybe you\'re away from home. As you do not have access to Internet, the Weather will not work correctly.</string>
+    <string name="dialog_no_gps">GPS is not working!</string>
+    <string name="dialog_no_gps_message">Maybe you\'re in a remote location. As the GPS is not working, the Weather will also stop working.</string>
+    <string name="dialog_remove_photo">Delete picture</string>
+    <string name="dialog_remove_photo_message">Do you really want to delete this photo?</string>
+    <string name="dialog_remove">Remove</string>
+    <string name="dialog_remove_contact">Remove Contact</string>
+    <string name="dialog_remove_contact_message">Do you really want to remove<b> %s</b> from your contacts?</string>
+    <string name="dialog_remove_new">Remove New</string>
+    <string name="dialog_remove_new_message">Do you really want to delete this new? Are you sure you don\'t care?</string>
+    <string name="dialog_news_message">To access the News you need an Internet connection.</string>
+    <string name="dialog_not_configured">Elderoid not configured!</string>
+    <string name="dialog_not_configured_message">Want to set up Elderoid as a default Launcher? (advised)</string>
+    <string name="dialog_configure">Configure</string>
+    <string name="dialog_add_topic">Add Topic</string>
+    <string name="dialog_add_topic_message">Write a topic for news that you\'d like to see.</string>
+    <string name="dialog_remove_topic">Remove Topic</string>
+    <string name="dialog_remove_topic_message">Do you really want to remove \"%s\" from the News topics?</string>
+    <string name="dialog_lang">Choose the language you prefer</string>
+    <string name="dialog_filter_apps">What type of application do you seek?</string>
+    <string name="dialog_do_not_tell_me_again">Don\'t tell me again</string>
+
+    <!-- Features -->
+    <string name="feature_calls">Calls</string>
+    <string name="feature_contacts">Contacts</string>
+    <string name="feature_messages">Messages</string>
+    <string name="feature_apps">Apps</string>
+    <string name="feature_weather">Weather</string>
+    <string name="feature_news">News</string>
+    <string name="feature_photos">Photos</string>
+    <string name="feature_flashlight">Flashlight</string>
+
+    <!-- Features Description -->
+    <string name="feature_calls_description">This feature allows you to make calls, by writing a phone number.</string>
+    <string name="feature_contacts_description">This feature allows you to save contacts, like a phone book.</string>
+    <string name="feature_messages_description">This feature allows you to send messages to your contacts. Elderoid uses the default SMS app.</string>
+    <string name="feature_apps_description">This feature allows you to utilize installed apps, like games.</string>
+    <string name="feature_weather_description">This feature allows you to see the current and forecast weather.</string>
+    <string name="feature_news_description">This feature allows you to see news, according to your preferred subjects.</string>
+    <string name="feature_photos_description">This feature allows you to take photos, and check them whenever you want.</string>
+    <string name="feature_flashlight_description">This feature allows you to use the flashlight in your device.</string>
+
+    <!-- Game Suggestions -->
+    <string name="bubble_shooter">Bubble Shooter</string>
+    <string name="word_connect">Word Connect</string>
+    <string name="angry_birds">Angry Birds</string>
+    <string name="block_puzzle">Block Puzzle</string>
+    <string name="words_with_friends">Words with Friends</string>
+
+    <!-- Game Suggestions Descriptions -->
+    <string name="bubble_shooter_description">Throw a bubble to hit other bubbles of the same color.</string>
+    <string name="word_connect_description">Connect letters to make words.</string>
+    <string name="angry_birds_description">Use birds with different abilities to hit enemies and obstacles.</string>
+    <string name="block_puzzle_description">Fit the falling blocks into the right place.</string>
+    <string name="words_with_friends_description">Use letters to build words. Perfect to play with friends and family.</string>
+
+</resources>

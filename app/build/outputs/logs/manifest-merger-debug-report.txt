@@ -1,0 +1,487 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:2:1-146:12
+INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:2:1-146:12
+INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:2:1-146:12
+INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:2:1-146:12
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\pedro\.gradle\caches\transforms-3\e86b7b5fd16959c250327e3a8edbf78c\transformed\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.chrisbanes:PhotoView:2.0.0] C:\Users\pedro\.gradle\caches\transforms-3\5b138434f701e441778625b5f3dafcac\transformed\jetified-PhotoView-2.0.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.intuit.ssp:ssp-android:1.0.6] C:\Users\pedro\.gradle\caches\transforms-3\4a470158dfa90a56b5ca456955dca10e\transformed\jetified-ssp-android-1.0.6\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\pedro\.gradle\caches\transforms-3\93072ae706c4c20d1870aff3950f52a9\transformed\jetified-glide-4.12.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\pedro\.gradle\caches\transforms-3\49ea47c460cb4e6448bebc819dbe8b2f\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\pedro\.gradle\caches\transforms-3\5d1cae9a40cb847126ba3c1c6b07999a\transformed\constraintlayout-2.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\pedro\.gradle\caches\transforms-3\dc36334637fc8d38dc8bf26ca76dcc9d\transformed\appcompat-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\765c10e9c86370f3d596cdb48a2e8241\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\pedro\.gradle\caches\transforms-3\0cbec96eed0812f2a2f2546c5fb2d38c\transformed\jetified-volley-1.2.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\485eff22d10ec0a481bf5caed81b1e2e\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\43898b9d3733fcf8c7be0d94ffecb2a4\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\25f0030063694563b072082d4933f40a\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\pedro\.gradle\caches\transforms-3\944e125b89be2ce86327f5fc72383e93\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\a1bc36900c98ab9cb78d72922f220516\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\pedro\.gradle\caches\transforms-3\ed127229eb04a33866bcd4ac411532fb\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\pedro\.gradle\caches\transforms-3\1b924787f3fb2a6f8a9cf431dc9bc32c\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\pedro\.gradle\caches\transforms-3\ae884a9c478d1ee16f30c539b0822d25\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\pedro\.gradle\caches\transforms-3\e8d5db821f91c261e29d6f2e7d56d4a3\transformed\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\pedro\.gradle\caches\transforms-3\f9e0e7d6c360bcfdfc878f3d9d739104\transformed\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\4908267e01fb1f358355175dc7199eac\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\pedro\.gradle\caches\transforms-3\ba2c4aef76efe70d3d468774394be57d\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\pedro\.gradle\caches\transforms-3\c409ff575176b4d0db401c0bb7cbe58a\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\pedro\.gradle\caches\transforms-3\96979a5c1e52cf1294272d87dc548f53\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\265fe207cf8017cd1c73ebc723ef96ad\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\2b3558a3b63de03760ffa13dda216c19\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\05b3372754b5e09baf5c590ed963bb06\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\pedro\.gradle\caches\transforms-3\58f0a36b59f97b17952e1bc1780a064c\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\6e3c31657439678779d485ac024011bc\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\5ba790a7584b5253c8f6103553286598\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\2a2602c8f2caacae3cf24504970e229f\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\8304b849f371c7dd425a4d224fe8bda8\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.5.0] C:\Users\pedro\.gradle\caches\transforms-3\eaef0563da0abf069bc2063fa586a386\transformed\core-1.5.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\2c35f0deea48a3f9ab27599e6de49832\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\pedro\.gradle\caches\transforms-3\d87c4df5843145823acec6e668a7355f\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\pedro\.gradle\caches\transforms-3\f856919151720216204296d8253c80ad\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\pedro\.gradle\caches\transforms-3\10905fc5a841ba7cff20c5d592983949\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\pedro\.gradle\caches\transforms-3\5f1f1cb936d279ad8607c7b32e1061fc\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\1503c58b725f3e89e7afab1dcccdefa1\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\04dd8e2162de8e45e28cb5710d3d11d5\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\33e7dc4c50e0e59bb15132a939ebd8ed\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\f90f5e0b711a28909128c032d10fc795\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\pedro\.gradle\caches\transforms-3\5653b644f2a2ad7fed0f9f05df5bc993\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\074ee33ceb249cb95d7970385af4a388\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\pedro\.gradle\caches\transforms-3\7c7b1e5778aed61c7a9b54e123083ce8\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\pedro\.gradle\caches\transforms-3\566a132557a1d2f91e47bbb3b87c533f\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\pedro\.gradle\caches\transforms-3\ec800a9111f1fa770853e78d5d5df245\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\dd16cbdad95d6e379ec64dee43a1f25c\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\2c01b37fbc1a88f1678817a2eb3b7088\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:2:1-146:12
+INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:2:1-146:12
+INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:2:1-146:12
+	package
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:2:1-146:12
+		INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:2:1-146:12
+		INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:9:5-69
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:9:22-66
+uses-permission#android.permission.MANAGE_OWN_CALLS
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:10:5-75
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:10:22-72
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:11:5-72
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:11:22-69
+uses-permission#android.permission.READ_PHONE_NUMBERS
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:12:5-77
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:12:22-74
+uses-permission#android.permission.READ_CALL_LOG
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:13:5-72
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:13:22-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:14:22-77
+uses-permission#android.permission.READ_SMS
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:15:5-67
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:15:22-64
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:16:5-73
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:16:22-70
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:17:22-78
+uses-permission#android.permission.WRITE_CALL_LOG
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:18:5-73
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:18:22-70
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:19:5-65
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:19:22-62
+uses-feature#android.hardware.camera
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:21:5-60
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:21:19-57
+application
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:23:5-144:19
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\pedro\.gradle\caches\transforms-3\93072ae706c4c20d1870aff3950f52a9\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\pedro\.gradle\caches\transforms-3\93072ae706c4c20d1870aff3950f52a9\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\pedro\.gradle\caches\transforms-3\49ea47c460cb4e6448bebc819dbe8b2f\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\pedro\.gradle\caches\transforms-3\49ea47c460cb4e6448bebc819dbe8b2f\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\pedro\.gradle\caches\transforms-3\5d1cae9a40cb847126ba3c1c6b07999a\transformed\constraintlayout-2.1.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\pedro\.gradle\caches\transforms-3\5d1cae9a40cb847126ba3c1c6b07999a\transformed\constraintlayout-2.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\pedro\.gradle\caches\transforms-3\944e125b89be2ce86327f5fc72383e93\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\pedro\.gradle\caches\transforms-3\944e125b89be2ce86327f5fc72383e93\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.5.0] C:\Users\pedro\.gradle\caches\transforms-3\eaef0563da0abf069bc2063fa586a386\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] C:\Users\pedro\.gradle\caches\transforms-3\eaef0563da0abf069bc2063fa586a386\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\pedro\.gradle\caches\transforms-3\5653b644f2a2ad7fed0f9f05df5bc993\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\pedro\.gradle\caches\transforms-3\5653b644f2a2ad7fed0f9f05df5bc993\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:requestLegacyExternalStorage
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:29:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] C:\Users\pedro\.gradle\caches\transforms-3\eaef0563da0abf069bc2063fa586a386\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:31:9-35
+	android:label
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:28:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:26:9-42
+	android:roundIcon
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:30:9-54
+	android:icon
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:27:9-43
+	android:allowBackup
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:25:9-36
+	android:theme
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:32:9-46
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:24:9-56
+provider#com.alcachofra.elderoid.utils.GenericFileProvider
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:34:9-42:20
+	android:grantUriPermissions
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:38:13-47
+	android:authorities
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:36:13-67
+	android:exported
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:35:13-77
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:39:13-41:58
+	android:resource
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:41:17-55
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:40:17-67
+activity#com.alcachofra.elderoid.FakeLauncherActivity
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:44:9-53:20
+	android:enabled
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:46:13-36
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:45:13-72
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.HOME
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:47:13-52:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:48:17-69
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:48:25-66
+category#android.intent.category.HOME
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:50:17-73
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:50:27-70
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:51:17-76
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:51:27-73
+activity#com.alcachofra.elderoid.PhotoActivity
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:54:9-74
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:54:19-71
+activity#com.alcachofra.elderoid.configuration.GameSuggestionsActivity
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:55:9-57:52
+	android:screenOrientation
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:57:13-49
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:56:13-89
+activity#com.alcachofra.elderoid.configuration.CallsConfigurationActivity
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:58:9-60:52
+	android:screenOrientation
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:60:13-49
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:59:13-92
+activity#com.alcachofra.elderoid.configuration.ContactsConfigurationActivity
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:61:9-63:52
+	android:screenOrientation
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:63:13-49
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:62:13-95
+activity#com.alcachofra.elderoid.configuration.MessagesConfigurationActivity
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:64:9-66:52
+	android:screenOrientation
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:66:13-49
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:65:13-95
+activity#com.alcachofra.elderoid.configuration.AppsConfigurationActivity
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:67:9-69:52
+	android:screenOrientation
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:69:13-49
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:68:13-91
+activity#com.alcachofra.elderoid.configuration.FlashlightConfigurationActivity
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:70:9-72:52
+	android:screenOrientation
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:72:13-49
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:71:13-97
+activity#com.alcachofra.elderoid.configuration.PhotosConfigurationActivity
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:73:9-75:52
+	android:screenOrientation
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:75:13-49
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:74:13-93
+activity#com.alcachofra.elderoid.configuration.WeatherConfigurationActivity
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:76:9-78:52
+	android:screenOrientation
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:78:13-49
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:77:13-94
+activity#com.alcachofra.elderoid.configuration.LangConfigurationActivity
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:79:9-81:52
+	android:screenOrientation
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:81:13-49
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:80:13-91
+activity#com.alcachofra.elderoid.configuration.WelcomeConfigurationActivity
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:82:9-84:52
+	android:screenOrientation
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:84:13-49
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:83:13-94
+activity#com.alcachofra.elderoid.configuration.UserConfigurationActivity
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:85:9-87:52
+	android:screenOrientation
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:87:13-49
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:86:13-91
+activity#com.alcachofra.elderoid.configuration.FeaturesConfigurationActivity
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:88:9-90:52
+	android:screenOrientation
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:90:13-49
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:89:13-95
+activity#com.alcachofra.elderoid.configuration.ChooseAppsConfigurationActivity
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:91:9-93:52
+	android:screenOrientation
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:93:13-49
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:92:13-97
+activity#com.alcachofra.elderoid.configuration.PermissionsConfigurationActivity
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:94:9-96:52
+	android:screenOrientation
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:96:13-49
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:95:13-98
+activity#com.alcachofra.elderoid.configuration.LauncherConfigurationActivity
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:97:9-99:52
+	android:screenOrientation
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:99:13-49
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:98:13-95
+activity#com.alcachofra.elderoid.configuration.FinishConfigurationActivity
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:100:9-102:52
+	android:screenOrientation
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:102:13-49
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:101:13-93
+activity#com.alcachofra.elderoid.ContactListActivity
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:103:9-105:52
+	android:screenOrientation
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:105:13-49
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:104:13-71
+activity#com.alcachofra.elderoid.AppListActivity
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:106:9-108:52
+	android:screenOrientation
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:108:13-49
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:107:13-67
+activity#com.alcachofra.elderoid.DialerActivity
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:109:9-111:52
+	android:screenOrientation
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:111:13-49
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:110:13-66
+activity#com.alcachofra.elderoid.WeatherForecastActivity
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:112:9-114:52
+	android:screenOrientation
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:114:13-49
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:113:13-75
+activity#com.alcachofra.elderoid.GalleryActivity
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:115:9-117:52
+	android:screenOrientation
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:117:13-49
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:116:13-67
+activity#com.alcachofra.elderoid.CallLogActivity
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:118:9-120:52
+	android:screenOrientation
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:120:13-49
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:119:13-67
+activity#com.alcachofra.elderoid.MissedCallsActivity
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:121:9-123:52
+	android:screenOrientation
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:123:13-49
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:122:13-71
+activity#com.alcachofra.elderoid.AddContactActivity
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:124:9-126:52
+	android:screenOrientation
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:126:13-49
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:125:13-70
+activity#com.alcachofra.elderoid.SettingsActivity
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:127:9-129:52
+	android:screenOrientation
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:129:13-49
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:128:13-68
+activity#com.alcachofra.elderoid.MenuActivity
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:130:9-143:20
+	android:screenOrientation
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:133:13-49
+	android:stateNotNeeded
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:134:13-42
+	android:launchMode
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:132:13-44
+	android:theme
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:135:13-50
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:131:13-64
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.HOME+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:136:13-142:29
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:141:17-77
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:141:27-74
+uses-sdk
+INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\pedro\.gradle\caches\transforms-3\e86b7b5fd16959c250327e3a8edbf78c\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\pedro\.gradle\caches\transforms-3\e86b7b5fd16959c250327e3a8edbf78c\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.github.chrisbanes:PhotoView:2.0.0] C:\Users\pedro\.gradle\caches\transforms-3\5b138434f701e441778625b5f3dafcac\transformed\jetified-PhotoView-2.0.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.chrisbanes:PhotoView:2.0.0] C:\Users\pedro\.gradle\caches\transforms-3\5b138434f701e441778625b5f3dafcac\transformed\jetified-PhotoView-2.0.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.intuit.ssp:ssp-android:1.0.6] C:\Users\pedro\.gradle\caches\transforms-3\4a470158dfa90a56b5ca456955dca10e\transformed\jetified-ssp-android-1.0.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.ssp:ssp-android:1.0.6] C:\Users\pedro\.gradle\caches\transforms-3\4a470158dfa90a56b5ca456955dca10e\transformed\jetified-ssp-android-1.0.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\pedro\.gradle\caches\transforms-3\93072ae706c4c20d1870aff3950f52a9\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\pedro\.gradle\caches\transforms-3\93072ae706c4c20d1870aff3950f52a9\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\pedro\.gradle\caches\transforms-3\49ea47c460cb4e6448bebc819dbe8b2f\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\pedro\.gradle\caches\transforms-3\49ea47c460cb4e6448bebc819dbe8b2f\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\pedro\.gradle\caches\transforms-3\5d1cae9a40cb847126ba3c1c6b07999a\transformed\constraintlayout-2.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\pedro\.gradle\caches\transforms-3\5d1cae9a40cb847126ba3c1c6b07999a\transformed\constraintlayout-2.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\pedro\.gradle\caches\transforms-3\dc36334637fc8d38dc8bf26ca76dcc9d\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\pedro\.gradle\caches\transforms-3\dc36334637fc8d38dc8bf26ca76dcc9d\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\765c10e9c86370f3d596cdb48a2e8241\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\765c10e9c86370f3d596cdb48a2e8241\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\pedro\.gradle\caches\transforms-3\0cbec96eed0812f2a2f2546c5fb2d38c\transformed\jetified-volley-1.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\pedro\.gradle\caches\transforms-3\0cbec96eed0812f2a2f2546c5fb2d38c\transformed\jetified-volley-1.2.1\AndroidManifest.xml:5:5-43
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\485eff22d10ec0a481bf5caed81b1e2e\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\485eff22d10ec0a481bf5caed81b1e2e\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\43898b9d3733fcf8c7be0d94ffecb2a4\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\43898b9d3733fcf8c7be0d94ffecb2a4\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\25f0030063694563b072082d4933f40a\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\25f0030063694563b072082d4933f40a\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\pedro\.gradle\caches\transforms-3\944e125b89be2ce86327f5fc72383e93\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\pedro\.gradle\caches\transforms-3\944e125b89be2ce86327f5fc72383e93\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\a1bc36900c98ab9cb78d72922f220516\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\a1bc36900c98ab9cb78d72922f220516\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\pedro\.gradle\caches\transforms-3\ed127229eb04a33866bcd4ac411532fb\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\pedro\.gradle\caches\transforms-3\ed127229eb04a33866bcd4ac411532fb\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\pedro\.gradle\caches\transforms-3\1b924787f3fb2a6f8a9cf431dc9bc32c\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\pedro\.gradle\caches\transforms-3\1b924787f3fb2a6f8a9cf431dc9bc32c\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\pedro\.gradle\caches\transforms-3\ae884a9c478d1ee16f30c539b0822d25\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\pedro\.gradle\caches\transforms-3\ae884a9c478d1ee16f30c539b0822d25\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\pedro\.gradle\caches\transforms-3\e8d5db821f91c261e29d6f2e7d56d4a3\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\pedro\.gradle\caches\transforms-3\e8d5db821f91c261e29d6f2e7d56d4a3\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\pedro\.gradle\caches\transforms-3\f9e0e7d6c360bcfdfc878f3d9d739104\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\pedro\.gradle\caches\transforms-3\f9e0e7d6c360bcfdfc878f3d9d739104\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\4908267e01fb1f358355175dc7199eac\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\4908267e01fb1f358355175dc7199eac\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\pedro\.gradle\caches\transforms-3\ba2c4aef76efe70d3d468774394be57d\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\pedro\.gradle\caches\transforms-3\ba2c4aef76efe70d3d468774394be57d\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\pedro\.gradle\caches\transforms-3\c409ff575176b4d0db401c0bb7cbe58a\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\pedro\.gradle\caches\transforms-3\c409ff575176b4d0db401c0bb7cbe58a\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\pedro\.gradle\caches\transforms-3\96979a5c1e52cf1294272d87dc548f53\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\pedro\.gradle\caches\transforms-3\96979a5c1e52cf1294272d87dc548f53\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\265fe207cf8017cd1c73ebc723ef96ad\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\265fe207cf8017cd1c73ebc723ef96ad\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\2b3558a3b63de03760ffa13dda216c19\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\2b3558a3b63de03760ffa13dda216c19\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\05b3372754b5e09baf5c590ed963bb06\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\05b3372754b5e09baf5c590ed963bb06\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\pedro\.gradle\caches\transforms-3\58f0a36b59f97b17952e1bc1780a064c\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\pedro\.gradle\caches\transforms-3\58f0a36b59f97b17952e1bc1780a064c\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\6e3c31657439678779d485ac024011bc\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\6e3c31657439678779d485ac024011bc\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\5ba790a7584b5253c8f6103553286598\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\5ba790a7584b5253c8f6103553286598\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\2a2602c8f2caacae3cf24504970e229f\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\2a2602c8f2caacae3cf24504970e229f\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\8304b849f371c7dd425a4d224fe8bda8\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\8304b849f371c7dd425a4d224fe8bda8\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.5.0] C:\Users\pedro\.gradle\caches\transforms-3\eaef0563da0abf069bc2063fa586a386\transformed\core-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] C:\Users\pedro\.gradle\caches\transforms-3\eaef0563da0abf069bc2063fa586a386\transformed\core-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\2c35f0deea48a3f9ab27599e6de49832\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\2c35f0deea48a3f9ab27599e6de49832\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\pedro\.gradle\caches\transforms-3\d87c4df5843145823acec6e668a7355f\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\pedro\.gradle\caches\transforms-3\d87c4df5843145823acec6e668a7355f\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\pedro\.gradle\caches\transforms-3\f856919151720216204296d8253c80ad\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\pedro\.gradle\caches\transforms-3\f856919151720216204296d8253c80ad\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\pedro\.gradle\caches\transforms-3\10905fc5a841ba7cff20c5d592983949\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\pedro\.gradle\caches\transforms-3\10905fc5a841ba7cff20c5d592983949\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\pedro\.gradle\caches\transforms-3\5f1f1cb936d279ad8607c7b32e1061fc\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\pedro\.gradle\caches\transforms-3\5f1f1cb936d279ad8607c7b32e1061fc\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\1503c58b725f3e89e7afab1dcccdefa1\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\1503c58b725f3e89e7afab1dcccdefa1\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\04dd8e2162de8e45e28cb5710d3d11d5\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\04dd8e2162de8e45e28cb5710d3d11d5\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\33e7dc4c50e0e59bb15132a939ebd8ed\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\33e7dc4c50e0e59bb15132a939ebd8ed\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\f90f5e0b711a28909128c032d10fc795\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\f90f5e0b711a28909128c032d10fc795\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\pedro\.gradle\caches\transforms-3\5653b644f2a2ad7fed0f9f05df5bc993\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\pedro\.gradle\caches\transforms-3\5653b644f2a2ad7fed0f9f05df5bc993\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\074ee33ceb249cb95d7970385af4a388\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\074ee33ceb249cb95d7970385af4a388\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\pedro\.gradle\caches\transforms-3\7c7b1e5778aed61c7a9b54e123083ce8\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\pedro\.gradle\caches\transforms-3\7c7b1e5778aed61c7a9b54e123083ce8\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\pedro\.gradle\caches\transforms-3\566a132557a1d2f91e47bbb3b87c533f\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\pedro\.gradle\caches\transforms-3\566a132557a1d2f91e47bbb3b87c533f\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\pedro\.gradle\caches\transforms-3\ec800a9111f1fa770853e78d5d5df245\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\pedro\.gradle\caches\transforms-3\ec800a9111f1fa770853e78d5d5df245\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\dd16cbdad95d6e379ec64dee43a1f25c\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\dd16cbdad95d6e379ec64dee43a1f25c\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\2c01b37fbc1a88f1678817a2eb3b7088\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\2c01b37fbc1a88f1678817a2eb3b7088\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml

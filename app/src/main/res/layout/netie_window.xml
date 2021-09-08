@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/netie_layout"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:background="@drawable/netie_background"
+    app:layout_constraintHeight_percent=".32"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint_netie"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/constraint_balloon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent=".38">
+
+        <com.alcachofra.elderoid.utils.netie.NetieView
+            android:id="@+id/netie"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="@dimen/_19sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:layout_marginBottom="@dimen/_16sdp"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/netie"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/extra"
+            app:layout_constraintVertical_bias="0">
+
+        </com.alcachofra.elderoid.utils.netie.NetieView>
+
+        <com.alcachofra.elderoid.utils.animatedViews.AnimatedConstraintLayout
+            android:id="@+id/extra"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="@dimen/_22sdp"
+            android:layout_marginBottom="@dimen/_19sdp"
+            android:visibility="invisible"
+            app:layout_constraintDimensionRatio="2:1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+        </com.alcachofra.elderoid.utils.animatedViews.AnimatedConstraintLayout>
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/back"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/rounded_button_clickable"
+            android:visibility="gone"
+            android:gravity="center"
+            android:paddingTop="@dimen/_8sdp"
+            android:paddingBottom="@dimen/_7sdp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_back"
+            app:layout_constraintTop_toTopOf="@id/extra"
+            app:layout_constraintBottom_toBottomOf="@id/extra"
+            app:layout_constraintStart_toStartOf="@id/extra"
+            app:layout_constraintEnd_toEndOf="@id/extra">
+
+        </androidx.appcompat.widget.AppCompatImageButton>
+
+        <com.alcachofra.elderoid.utils.animatedViews.DigitalClock
+            android:id="@+id/clock"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="@dimen/_4ssp"
+            app:autoSizeMaxTextSize="@dimen/_80ssp"
+            app:autoSizeStepGranularity="@dimen/_1ssp"
+            android:background="@drawable/rounded_button"
+            android:visibility="gone"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:paddingHorizontal="@dimen/_6sdp"
+            android:paddingVertical="@dimen/_1sdp"
+            android:textStyle="bold"
+            android:textColor="@color/text"
+            app:layout_constraintTop_toTopOf="@id/extra"
+            app:layout_constraintBottom_toBottomOf="@id/extra"
+            app:layout_constraintStart_toStartOf="@id/extra"
+            app:layout_constraintEnd_toEndOf="@id/extra">
+
+        </com.alcachofra.elderoid.utils.animatedViews.DigitalClock>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint_balloon"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/constraint_netie"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/balloon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/_19sdp"
+            android:layout_marginVertical="@dimen/_19sdp"
+            android:background="@drawable/balloon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="8:5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </androidx.appcompat.widget.AppCompatImageView>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/balloon_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/_11sdp"
+            android:layout_marginTop="@dimen/_26sdp"
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_27sdp"
+            android:ellipsize="end"
+            android:text=""
+            android:textSize="@dimen/_13ssp"
+            android:textColor="@color/text"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/balloon"
+            app:layout_constraintEnd_toEndOf="@+id/balloon"
+            app:layout_constraintTop_toTopOf="@+id/balloon"
+            app:layout_constraintBottom_toBottomOf="@+id/balloon">
+
+        </androidx.appcompat.widget.AppCompatTextView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/option1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/_6sdp"
+            android:paddingHorizontal="@dimen/_12sdp"
+            android:background="@drawable/rounded_button_clickable"
+            android:textSize="@dimen/_14ssp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/balloon"
+            app:layout_constraintEnd_toEndOf="@+id/balloon"
+            app:layout_constraintHeight_percent="0.14">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/option2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/_6sdp"
+            android:paddingHorizontal="@dimen/_12sdp"
+            android:background="@drawable/rounded_button_clickable"
+            android:textSize="@dimen/_14ssp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/balloon"
+            app:layout_constraintEnd_toStartOf="@+id/option1"
+            app:layout_constraintHeight_percent="0.14">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

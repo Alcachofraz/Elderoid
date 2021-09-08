@@ -1,0 +1,166 @@
+com/alcachofra/elderoid/configuration/NewsConfigurationActivity.java
+ com.alcachofra.elderoid.configuration.NewsConfigurationActivity
+com/alcachofra/elderoid/utils/weather/Weather.java
+ com.alcachofra.elderoid.utils.weather.Weather
+ com.alcachofra.elderoid.utils.weather.Weather$TempScale
+com/alcachofra/elderoid/utils/CallInfo.java
+ com.alcachofra.elderoid.utils.CallInfo
+ com.alcachofra.elderoid.utils.CallInfo$CallType
+com/alcachofra/elderoid/configuration/WeatherConfigurationActivity.java
+ com.alcachofra.elderoid.configuration.WeatherConfigurationActivity
+com/alcachofra/elderoid/utils/animatedViews/AnimatedImageButton.java
+ com.alcachofra.elderoid.utils.animatedViews.AnimatedImageButton
+com/alcachofra/elderoid/utils/dialog/DialogAppFilter.java
+ com.alcachofra.elderoid.utils.dialog.DialogAppFilter
+com/alcachofra/elderoid/DialerActivity.java
+ com.alcachofra.elderoid.DialerActivity
+com/alcachofra/elderoid/utils/weather/DayWeather.java
+ com.alcachofra.elderoid.utils.weather.DayWeather
+ com.alcachofra.elderoid.utils.weather.DayWeather$1
+com/alcachofra/elderoid/utils/AppInfo.java
+ com.alcachofra.elderoid.utils.AppInfo
+com/alcachofra/elderoid/AppListActivity.java
+ com.alcachofra.elderoid.AppListActivity
+ com.alcachofra.elderoid.AppListActivity$1
+ com.alcachofra.elderoid.AppListActivity$AppListAdapter
+ com.alcachofra.elderoid.AppListActivity$AppListAdapter$AppViewHolder
+com/alcachofra/elderoid/configuration/NewsTopicsConfigurationActivity.java
+ com.alcachofra.elderoid.configuration.NewsTopicsConfigurationActivity
+ com.alcachofra.elderoid.configuration.NewsTopicsConfigurationActivity$TopicListAdapter
+ com.alcachofra.elderoid.configuration.NewsTopicsConfigurationActivity$TopicListAdapter$TopicViewHolder
+com/alcachofra/elderoid/utils/weather/NowWeather.java
+ com.alcachofra.elderoid.utils.weather.NowWeather
+ com.alcachofra.elderoid.utils.weather.NowWeather$1
+com/alcachofra/elderoid/configuration/GameSuggestionsActivity.java
+ com.alcachofra.elderoid.configuration.GameSuggestionsActivity
+ com.alcachofra.elderoid.configuration.GameSuggestionsActivity$GameSuggestionsListAdapter
+ com.alcachofra.elderoid.configuration.GameSuggestionsActivity$GameSuggestionsListAdapter$1
+ com.alcachofra.elderoid.configuration.GameSuggestionsActivity$GameSuggestionsListAdapter$GameSuggestionsViewHolder
+com/alcachofra/elderoid/configuration/PhotosConfigurationActivity.java
+ com.alcachofra.elderoid.configuration.PhotosConfigurationActivity
+com/alcachofra/elderoid/FakeLauncherActivity.java
+ com.alcachofra.elderoid.FakeLauncherActivity
+com/alcachofra/elderoid/configuration/CallsConfigurationActivity.java
+ com.alcachofra.elderoid.configuration.CallsConfigurationActivity
+com/alcachofra/elderoid/MenuActivity.java
+ com.alcachofra.elderoid.MenuActivity
+ com.alcachofra.elderoid.MenuActivity$1
+ com.alcachofra.elderoid.MenuActivity$2
+ com.alcachofra.elderoid.MenuActivity$3
+ com.alcachofra.elderoid.MenuActivity$4
+com/alcachofra/elderoid/NewListActivity.java
+ com.alcachofra.elderoid.NewListActivity
+ com.alcachofra.elderoid.NewListActivity$NewListAdapter
+ com.alcachofra.elderoid.NewListActivity$NewListAdapter$1
+ com.alcachofra.elderoid.NewListActivity$NewListAdapter$NewViewHolder
+com/alcachofra/elderoid/configuration/LauncherConfigurationActivity.java
+ com.alcachofra.elderoid.configuration.LauncherConfigurationActivity
+com/alcachofra/elderoid/CallLogActivity.java
+ com.alcachofra.elderoid.CallLogActivity
+ com.alcachofra.elderoid.CallLogActivity$1
+ com.alcachofra.elderoid.CallLogActivity$CallListAdapter
+ com.alcachofra.elderoid.CallLogActivity$CallViewHolder
+com/alcachofra/elderoid/utils/ContactInfo.java
+ com.alcachofra.elderoid.utils.ContactInfo
+com/alcachofra/elderoid/SettingsActivity.java
+ com.alcachofra.elderoid.SettingsActivity
+com/alcachofra/elderoid/utils/animatedViews/AnimatedImageView.java
+ com.alcachofra.elderoid.utils.animatedViews.AnimatedImageView
+com/alcachofra/elderoid/utils/dialog/DialogOption.java
+ com.alcachofra.elderoid.utils.dialog.DialogOption
+com/alcachofra/elderoid/utils/ElderoidActivity.java
+ com.alcachofra.elderoid.utils.ElderoidActivity
+com/alcachofra/elderoid/utils/weather/WeatherManager.java
+ com.alcachofra.elderoid.utils.weather.WeatherManager
+ com.alcachofra.elderoid.utils.weather.WeatherManager$1
+ com.alcachofra.elderoid.utils.weather.WeatherManager$WeatherType
+com/alcachofra/elderoid/utils/news/NewsManager.java
+ com.alcachofra.elderoid.utils.news.NewsManager
+ com.alcachofra.elderoid.utils.news.NewsManager$1
+com/alcachofra/elderoid/utils/CameraUtils.java
+ com.alcachofra.elderoid.utils.CameraUtils
+com/alcachofra/elderoid/utils/animatedViews/AnimatedButton.java
+ com.alcachofra.elderoid.utils.animatedViews.AnimatedButton
+com/alcachofra/elderoid/configuration/AppsConfigurationActivity.java
+ com.alcachofra.elderoid.configuration.AppsConfigurationActivity
+com/alcachofra/elderoid/utils/FileInfo.java
+ com.alcachofra.elderoid.utils.FileInfo
+com/alcachofra/elderoid/WeatherForecastActivity.java
+ com.alcachofra.elderoid.WeatherForecastActivity
+ com.alcachofra.elderoid.WeatherForecastActivity$1
+ com.alcachofra.elderoid.WeatherForecastActivity$2
+com/alcachofra/elderoid/configuration/FlashlightConfigurationActivity.java
+ com.alcachofra.elderoid.configuration.FlashlightConfigurationActivity
+com/alcachofra/elderoid/utils/dialog/DialogTextInput.java
+ com.alcachofra.elderoid.utils.dialog.DialogTextInput
+com/alcachofra/elderoid/utils/netie/Cue.java
+ com.alcachofra.elderoid.utils.netie.Cue
+com/alcachofra/elderoid/configuration/MessagesConfigurationActivity.java
+ com.alcachofra.elderoid.configuration.MessagesConfigurationActivity
+com/alcachofra/elderoid/utils/news/New.java
+ com.alcachofra.elderoid.utils.news.New
+com/alcachofra/elderoid/PhotoActivity.java
+ com.alcachofra.elderoid.PhotoActivity
+ com.alcachofra.elderoid.PhotoActivity$1
+com/alcachofra/elderoid/configuration/WelcomeConfigurationActivity.java
+ com.alcachofra.elderoid.configuration.WelcomeConfigurationActivity
+com/alcachofra/elderoid/utils/dialog/DialogLang.java
+ com.alcachofra.elderoid.utils.dialog.DialogLang
+com/alcachofra/elderoid/configuration/PermissionsConfigurationActivity.java
+ com.alcachofra.elderoid.configuration.PermissionsConfigurationActivity
+com/alcachofra/elderoid/ContactListActivity.java
+ com.alcachofra.elderoid.ContactListActivity
+ com.alcachofra.elderoid.ContactListActivity$1
+ com.alcachofra.elderoid.ContactListActivity$ContactListAdapter
+ com.alcachofra.elderoid.ContactListActivity$ContactListAdapter$ContactViewHolder
+com/alcachofra/elderoid/AddContactActivity.java
+ com.alcachofra.elderoid.AddContactActivity
+com/alcachofra/elderoid/utils/netie/Netie.java
+ com.alcachofra.elderoid.utils.netie.Netie
+ com.alcachofra.elderoid.utils.netie.Netie$1
+ com.alcachofra.elderoid.utils.netie.Netie$NetieWindowType
+com/alcachofra/elderoid/configuration/FinishConfigurationActivity.java
+ com.alcachofra.elderoid.configuration.FinishConfigurationActivity
+com/alcachofra/elderoid/Elderoid.java
+ com.alcachofra.elderoid.Elderoid
+com/alcachofra/elderoid/utils/GameSuggestion.java
+ com.alcachofra.elderoid.utils.GameSuggestion
+com/alcachofra/elderoid/configuration/ContactsConfigurationActivity.java
+ com.alcachofra.elderoid.configuration.ContactsConfigurationActivity
+com/alcachofra/elderoid/utils/animatedViews/AnimatedTextView.java
+ com.alcachofra.elderoid.utils.animatedViews.AnimatedTextView
+com/alcachofra/elderoid/configuration/FeaturesConfigurationActivity.java
+ com.alcachofra.elderoid.configuration.FeaturesConfigurationActivity
+com/alcachofra/elderoid/utils/animatedViews/DigitalClock.java
+ com.alcachofra.elderoid.utils.animatedViews.DigitalClock
+ com.alcachofra.elderoid.utils.animatedViews.DigitalClock$FormatChangeObserver
+com/alcachofra/elderoid/utils/FeatureInfo.java
+ com.alcachofra.elderoid.utils.FeatureInfo
+com/alcachofra/elderoid/configuration/LangConfigurationActivity.java
+ com.alcachofra.elderoid.configuration.LangConfigurationActivity
+com/alcachofra/elderoid/utils/netie/NetieView.java
+ com.alcachofra.elderoid.utils.netie.NetieView
+com/alcachofra/elderoid/configuration/ChooseAppsConfigurationActivity.java
+ com.alcachofra.elderoid.configuration.ChooseAppsConfigurationActivity
+ com.alcachofra.elderoid.configuration.ChooseAppsConfigurationActivity$1
+ com.alcachofra.elderoid.configuration.ChooseAppsConfigurationActivity$AppListAdapter
+ com.alcachofra.elderoid.configuration.ChooseAppsConfigurationActivity$AppListAdapter$AppViewHolder
+com/alcachofra/elderoid/utils/animatedViews/AnimatedConstraintLayout.java
+ com.alcachofra.elderoid.utils.animatedViews.AnimatedConstraintLayout
+com/alcachofra/elderoid/MissedCallsActivity.java
+ com.alcachofra.elderoid.MissedCallsActivity
+ com.alcachofra.elderoid.MissedCallsActivity$MissedCallListAdapter
+ com.alcachofra.elderoid.MissedCallsActivity$MissedCallViewHolder
+com/alcachofra/elderoid/GalleryActivity.java
+ com.alcachofra.elderoid.GalleryActivity
+ com.alcachofra.elderoid.GalleryActivity$GalleryAdapter
+ com.alcachofra.elderoid.GalleryActivity$GalleryAdapter$PhotoViewHolder
+com/alcachofra/elderoid/configuration/UserConfigurationActivity.java
+ com.alcachofra.elderoid.configuration.UserConfigurationActivity
+com/alcachofra/elderoid/utils/dialog/DialogTempScale.java
+ com.alcachofra.elderoid.utils.dialog.DialogTempScale
+com/alcachofra/elderoid/utils/SimplePrefs.java
+ com.alcachofra.elderoid.utils.SimplePrefs
+ com.alcachofra.elderoid.utils.SimplePrefs$Builder
+com/alcachofra/elderoid/BuildConfig.java
+ com.alcachofra.elderoid.BuildConfig

@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/menu_constraint_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/netie_window"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/upper_bar"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/netie_background"
+            app:layout_constraintHeight_percent="0.21"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.alcachofra.elderoid.utils.animatedViews.AnimatedImageView
+                android:id="@+id/weather_icon"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_margin="@dimen/_19sdp"
+                android:clickable="true"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio="1:1"
+                android:focusable="true">
+
+            </com.alcachofra.elderoid.utils.animatedViews.AnimatedImageView>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/loading"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_margin="@dimen/_19sdp"
+                android:background="@drawable/ic_loading"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintDimensionRatio="1">
+
+            </androidx.appcompat.widget.AppCompatImageView>
+
+            <com.alcachofra.elderoid.utils.animatedViews.AnimatedTextView
+                android:id="@+id/temperature"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintHeight_percent="0.65"
+                android:layout_margin="@dimen/_19sdp"
+                android:clickable="true"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="@dimen/_4ssp"
+                app:autoSizeMaxTextSize="@dimen/_100ssp"
+                app:autoSizeStepGranularity="@dimen/_1ssp"
+                android:textColor="@color/text"
+                android:gravity="center_vertical"
+                android:maxLength="6"
+                android:maxLines="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/battery_view"
+                app:layout_constraintStart_toEndOf="@+id/weather_icon"
+                app:layout_constraintTop_toTopOf="parent"
+                android:focusable="true">
+
+            </com.alcachofra.elderoid.utils.animatedViews.AnimatedTextView>
+
+            <com.alcachofra.elderoid.utils.animatedViews.AnimatedConstraintLayout
+                android:id="@+id/battery_view"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                app:layout_constraintHeight_percent="0.36"
+                android:layout_marginHorizontal="@dimen/_22sdp"
+                android:clickable="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.3"
+                android:focusable="true">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/battery_icon"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginEnd="@dimen/_4sdp"
+                    android:background="@drawable/battery"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintDimensionRatio="7:4"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/battery_fill_constraint"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_margin="@dimen/_5sdp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/battery_fill"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:src="@drawable/battery_fill"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0">
+
+                        </androidx.appcompat.widget.AppCompatImageView>
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/bolt"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_margin="@dimen/_6sdp"
+                            android:tint="@color/dark_main"
+                            android:visibility="invisible"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            android:src="@drawable/bolt">
+
+                        </androidx.appcompat.widget.AppCompatImageView>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/battery_edge"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@drawable/battery_edge"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintHeight_percent="0.5"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/battery_icon"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                </androidx.appcompat.widget.AppCompatImageView>
+
+            </com.alcachofra.elderoid.utils.animatedViews.AnimatedConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/buttons_constraint"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/upper_bar">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/circle_center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </androidx.appcompat.widget.AppCompatImageView>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/call"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintHeight_percent="0.2"
+                android:layout_margin="@dimen/_19sdp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/round_button"
+                android:padding="@dimen/_12sdp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_call"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintCircle="@+id/circle_center"
+                app:layout_constraintCircleAngle="180"
+                app:layout_constraintCircleRadius="@dimen/_80sdp"
+                app:layout_constraintDimensionRatio="H,1:1"
+                app:layout_constraintEnd_toStartOf="@+id/gallery"
+                app:layout_constraintStart_toEndOf="@+id/camera"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </androidx.appcompat.widget.AppCompatImageButton>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/camera"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintHeight_percent="0.2"
+                android:layout_margin="@dimen/_19sdp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/round_button"
+                android:padding="@dimen/_12sdp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_camera"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintCircle="@+id/circle_center"
+                app:layout_constraintCircleAngle="240"
+                app:layout_constraintCircleRadius="@dimen/_80sdp"
+                app:layout_constraintDimensionRatio="H,1:1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintEnd_toStartOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/messages">
+
+            </androidx.appcompat.widget.AppCompatImageButton>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/messages"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintHeight_percent="0.2"
+                android:layout_margin="@dimen/_19sdp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/round_button"
+                android:padding="@dimen/_13sdp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_message"
+                app:layout_constraintBottom_toTopOf="@id/camera"
+                app:layout_constraintCircle="@+id/circle_center"
+                app:layout_constraintCircleAngle="300"
+                app:layout_constraintCircleRadius="@dimen/_80sdp"
+                app:layout_constraintDimensionRatio="H,1:1"
+                app:layout_constraintEnd_toStartOf="@id/contacts"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </androidx.appcompat.widget.AppCompatImageButton>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/messages_frame"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintTop_toTopOf="@id/messages"
+                app:layout_constraintBottom_toBottomOf="@id/messages"
+                app:layout_constraintStart_toStartOf="@id/messages"
+                app:layout_constraintEnd_toEndOf="@id/messages">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/notification_badge"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@drawable/circle"
+                    app:layout_constraintHeight_percent="0.45"
+                    app:layout_constraintDimensionRatio="1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/notification_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:autoSizeMaxTextSize="@dimen/_40ssp"
+                        app:autoSizeMinTextSize="@dimen/_1ssp"
+                        app:autoSizeStepGranularity="@dimen/_1ssp"
+                        app:autoSizeTextType="uniform"
+                        android:layout_marginBottom="@dimen/_2sdp"
+                        android:layout_marginHorizontal="@dimen/_6sdp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/background">
+
+                    </androidx.appcompat.widget.AppCompatTextView>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/contacts"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintHeight_percent="0.2"
+                android:layout_margin="@dimen/_19sdp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/round_button"
+                android:padding="@dimen/_12sdp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_contacts"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintCircle="@+id/circle_center"
+                app:layout_constraintCircleAngle="0"
+                app:layout_constraintCircleRadius="@dimen/_80sdp"
+                app:layout_constraintDimensionRatio="H,1:1"
+                app:layout_constraintEnd_toStartOf="@+id/apps"
+                app:layout_constraintStart_toEndOf="@+id/messages"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </androidx.appcompat.widget.AppCompatImageButton>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/apps"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintHeight_percent="0.2"
+                android:layout_margin="@dimen/_12sdp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/round_button"
+                android:padding="@dimen/_12sdp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_apps"
+                app:layout_constraintDimensionRatio="H,1:1"
+                app:layout_constraintCircle="@+id/circle_center"
+                app:layout_constraintCircleAngle="60"
+                app:layout_constraintCircleRadius="@dimen/_80sdp"
+                app:layout_constraintBottom_toTopOf="@id/gallery"
+                app:layout_constraintStart_toEndOf="@id/contacts"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintEnd_toStartOf="parent">
+
+            </androidx.appcompat.widget.AppCompatImageButton>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/gallery"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintHeight_percent="0.2"
+                android:layout_margin="@dimen/_12sdp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/round_button"
+                android:padding="@dimen/_12sdp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_gallery"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintCircle="@+id/circle_center"
+                app:layout_constraintCircleAngle="120"
+                app:layout_constraintCircleRadius="@dimen/_80sdp"
+                app:layout_constraintDimensionRatio="H,1:1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintEnd_toStartOf="parent"
+                app:layout_constraintStart_toEndOf="@id/call"
+                app:layout_constraintTop_toBottomOf="@+id/apps">
+
+            </androidx.appcompat.widget.AppCompatImageButton>
+
+            <com.alcachofra.elderoid.utils.animatedViews.AnimatedImageButton
+                android:id="@+id/flashlight"
+                android:layout_width="@dimen/_48sdp"
+                android:layout_height="@dimen/_48sdp"
+                android:layout_margin="@dimen/_10sdp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/flashlight_button"
+                android:paddingTop="@dimen/_6sdp"
+                android:paddingBottom="@dimen/_8sdp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_flashlight"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </com.alcachofra.elderoid.utils.animatedViews.AnimatedImageButton>
+
+            <com.alcachofra.elderoid.utils.animatedViews.AnimatedImageButton
+                android:id="@+id/gears"
+                android:layout_width="@dimen/_48sdp"
+                android:layout_height="@dimen/_48sdp"
+                android:layout_margin="@dimen/_10sdp"
+                android:padding="@dimen/_8sdp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_gears"
+                android:background="@null"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </com.alcachofra.elderoid.utils.animatedViews.AnimatedImageButton>
+
+            <com.alcachofra.elderoid.utils.animatedViews.AnimatedImageButton
+                android:id="@+id/call_log"
+                android:layout_width="@dimen/_48sdp"
+                android:layout_height="@dimen/_48sdp"
+                android:layout_margin="@dimen/_10sdp"
+                android:padding="@dimen/_10sdp"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_call_log"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent">
+
+            </com.alcachofra.elderoid.utils.animatedViews.AnimatedImageButton>
+
+            <com.alcachofra.elderoid.utils.animatedViews.AnimatedImageButton
+                android:id="@+id/disable"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/round_button"
+                android:padding="@dimen/_10sdp"
+                android:scaleType="fitCenter"
+                android:src="@android:drawable/ic_lock_power_off"
+                android:tint="@color/red"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/gears">
+
+            </com.alcachofra.elderoid.utils.animatedViews.AnimatedImageButton>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <include
+        android:id="@+id/netie_window"
+        layout="@layout/netie_window"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+    </include>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
