@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.content.pm.ApplicationInfo;
+import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.os.Build;
@@ -86,6 +87,7 @@ public class ChooseAppsConfigurationActivity extends ElderoidActivity {
             public void run() {
                 List<AppInfo> saved_apps = getApps(Elderoid.loadAppPackagesFromSimplePrefs());
                 List<AppInfo> app_list = getInstalledApps();
+
                 for (AppInfo app : saved_apps) {
                     if (app_list.contains(app)) checkApp(app_list.get(app_list.indexOf(app)));
                 }

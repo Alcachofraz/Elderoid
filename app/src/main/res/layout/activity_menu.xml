@@ -255,6 +255,8 @@
                 app:layout_constraintStart_toStartOf="@id/messages"
                 app:layout_constraintEnd_toEndOf="@id/messages">
 
+                <!--
+
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:id="@+id/notification_badge"
                     android:layout_width="0dp"
@@ -282,6 +284,8 @@
                     </androidx.appcompat.widget.AppCompatTextView>
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
+
+                -->
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 

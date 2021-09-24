@@ -1,7 +1,5 @@
 package com.alcachofra.elderoid;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatImageButton;
 import androidx.appcompat.widget.AppCompatImageView;
 import androidx.appcompat.widget.AppCompatTextView;
@@ -20,7 +18,6 @@ import android.content.IntentFilter;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.content.res.ColorStateList;
-import android.database.Cursor;
 import android.hardware.Camera;
 import android.hardware.camera2.CameraAccessException;
 import android.hardware.camera2.CameraCharacteristics;
@@ -35,14 +32,13 @@ import android.os.BatteryManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
+import android.provider.CallLog;
 import android.provider.MediaStore;
 import android.provider.Settings;
 import android.provider.Telephony;
-import android.util.Log;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.widget.Toast;
 
 import com.alcachofra.elderoid.configuration.ChooseAppsConfigurationActivity;
 import com.alcachofra.elderoid.configuration.FeaturesConfigurationActivity;
@@ -95,8 +91,8 @@ public class MenuActivity extends ElderoidActivity {
 
     boolean comingFromCamera = false;
 
-    ConstraintLayout notification_badge;
-    AppCompatTextView notification_text;
+    //ConstraintLayout notification_badge;
+    //AppCompatTextView notification_text;
 
     private Camera cam1;
     private Camera.Parameters parameters;
@@ -221,7 +217,7 @@ public class MenuActivity extends ElderoidActivity {
                     R.drawable.netie
             ).setOption1(
                     Elderoid.string(R.string.see),
-                    v -> startActivity(new Intent(getApplicationContext(), CallLogActivity.class))
+                    v -> openCallLog()
             ));
             cuePool.add(new Cue(
                     Elderoid.string(R.string.cue_call),
@@ -324,8 +320,8 @@ public class MenuActivity extends ElderoidActivity {
         temperature = findViewById(R.id.temperature);
         weather_icon = findViewById(R.id.weather_icon);
         loading = findViewById(R.id.loading);
-        notification_badge = findViewById(R.id.notification_badge); // Messages notification badge
-        notification_text = findViewById(R.id.notification_text); // Messages notification text
+        //notification_badge = findViewById(R.id.notification_badge); // Messages notification badge
+        //notification_text = findViewById(R.id.notification_text); // Messages notification text
 
 
 
@@ -336,7 +332,7 @@ public class MenuActivity extends ElderoidActivity {
 
 
 
-        updateMessageNotificationBadge();
+        //updateMessageNotificationBadge();
 
 
 
@@ -417,7 +413,7 @@ public class MenuActivity extends ElderoidActivity {
             )
         );
 
-        call_log.setOnClickRunnable(() -> startActivity(new Intent(getApplicationContext(), CallLogActivity.class)));
+        call_log.setOnClickRunnable(this::openCallLog);
 
         flashlight.setOnClickRunnable(() -> {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
@@ -491,25 +487,6 @@ public class MenuActivity extends ElderoidActivity {
     }
 
     private void greet(String name) {
-        int newMissedCallsCount = Elderoid.getMissedCallsCount();
-        int oldMissedCallsCount = SimplePrefs.getInt(Elderoid.MISSED_CALLS_COUNT, 0);
-
-        if (newMissedCallsCount > oldMissedCallsCount) {
-            netie.setBalloon(Elderoid.string(R.string.missed_calls))
-                    .setOption1(Elderoid.string(R.string.yes), view -> {
-                        SimplePrefs.putInt(Elderoid.MISSED_CALLS_COUNT, newMissedCallsCount);
-                        startActivity(new Intent(getApplicationContext(), MissedCallsActivity.class));
-                    })
-                    .setOption2(Elderoid.string(R.string.no), view -> {
-                        SimplePrefs.putInt(Elderoid.MISSED_CALLS_COUNT, newMissedCallsCount);
-                        netie.setBalloon(Elderoid.string(R.string.cue_call_log))
-                                .setOption1(Elderoid.string(R.string.see), v -> startActivity(new Intent(getApplicationContext(), CallLogActivity.class)))
-                                .setExpression(R.drawable.netie);
-                    })
-                    .setExpression(R.drawable.netie_confused);
-            return;
-        }
-
         Random rnd = new Random();
         if (rnd.nextInt(4) == 1) {
             netie.setBalloon(Elderoid.string(R.string.i_can_help_you))
@@ -728,7 +705,7 @@ public class MenuActivity extends ElderoidActivity {
         });
     }
 
-    void updateMessageNotificationBadge() {
+    /*void updateMessageNotificationBadge() {
         final Uri SMS_INBOX = Uri.parse("content://sms/inbox");
         Cursor c = getContentResolver().query(SMS_INBOX, null, "read = 0", null, null);
         int unreadMessagesCount = c.getCount();
@@ -737,7 +714,7 @@ public class MenuActivity extends ElderoidActivity {
             notification_badge.setVisibility(View.VISIBLE);
             notification_text.setText(String.valueOf(unreadMessagesCount));
         } else notification_badge.setVisibility(View.GONE);
-    }
+    }*/
 
     private void enterWeatherForecast() {
         if (connected_to_internet_and_gps) startActivity(new Intent(getApplicationContext(), WeatherForecastActivity.class));
@@ -803,6 +780,13 @@ public class MenuActivity extends ElderoidActivity {
     private void enterSettings() {
         startActivity(new Intent(getApplicationContext(), SettingsActivity.class));
         finish();
+    }
+
+    private void openCallLog() {
+        Intent showCallLog = new Intent();
+        showCallLog.setAction(Intent.ACTION_VIEW);
+        showCallLog.setType(CallLog.Calls.CONTENT_TYPE);
+        startActivity(showCallLog);
     }
 
     private boolean isPackageInstalled(String packageName, Context context) {
@@ -914,7 +898,7 @@ public class MenuActivity extends ElderoidActivity {
         }
         comingFromCamera = false;
 
-        updateMessageNotificationBadge();
+        //updateMessageNotificationBadge();
 
         promptDialogs();
     }

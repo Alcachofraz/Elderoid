@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:2:1-146:12
-INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:2:1-146:12
-INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:2:1-146:12
-INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:2:1-146:12
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:2:1-138:12
+INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:2:1-138:12
+INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:2:1-138:12
+INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:2:1-138:12
 MERGED from [com.github.chrisbanes:PhotoView:2.0.0] C:\Users\pedro\.gradle\caches\transforms-3\5b138434f701e441778625b5f3dafcac\transformed\jetified-PhotoView-2.0.0\AndroidManifest.xml:2:1-12:12
 MERGED from [com.intuit.ssp:ssp-android:1.0.6] C:\Users\pedro\.gradle\caches\transforms-3\4a470158dfa90a56b5ca456955dca10e\transformed\jetified-ssp-android-1.0.6\AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\pedro\.gradle\caches\transforms-3\93072ae706c4c20d1870aff3950f52a9\transformed\jetified-glide-4.12.0\AndroidManifest.xml:2:1-12:12
@@ -52,20 +52,20 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\pedro\.g
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\pedro\.gradle\caches\transforms-3\ec800a9111f1fa770853e78d5d5df245\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\dd16cbdad95d6e379ec64dee43a1f25c\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\2c01b37fbc1a88f1678817a2eb3b7088\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:2:1-146:12
-INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:2:1-146:12
-INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:2:1-146:12
+INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:2:1-138:12
+INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:2:1-138:12
+INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:2:1-138:12
 	package
 		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:3:5-38
 		INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:2:1-146:12
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:2:1-138:12
 		INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:2:1-146:12
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:2:1-138:12
 		INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:2:11-69
@@ -101,40 +101,32 @@ uses-permission#android.permission.READ_PHONE_NUMBERS
 ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:12:5-77
 	android:name
 		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:12:22-74
-uses-permission#android.permission.READ_CALL_LOG
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:13:5-72
-	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:13:22-69
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:14:5-80
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:13:5-80
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:14:22-77
-uses-permission#android.permission.READ_SMS
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:15:5-67
-	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:15:22-64
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:13:22-77
 uses-permission#android.permission.WRITE_CONTACTS
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:16:5-73
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:14:5-73
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:16:22-70
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:14:22-70
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:17:5-81
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:15:5-81
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:17:22-78
-uses-permission#android.permission.WRITE_CALL_LOG
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:18:5-73
-	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:18:22-70
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:15:22-78
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:19:5-65
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:16:5-65
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:19:22-62
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:16:22-62
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:17:5-77
+	android:name
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:17:22-74
 uses-feature#android.hardware.camera
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:21:5-60
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:19:5-60
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:21:19-57
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:19:19-57
 application
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:23:5-144:19
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:21:5-136:19
 MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\pedro\.gradle\caches\transforms-3\93072ae706c4c20d1870aff3950f52a9\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
 MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\pedro\.gradle\caches\transforms-3\93072ae706c4c20d1870aff3950f52a9\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\pedro\.gradle\caches\transforms-3\49ea47c460cb4e6448bebc819dbe8b2f\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
@@ -148,233 +140,221 @@ MERGED from [androidx.core:core:1.5.0] C:\Users\pedro\.gradle\caches\transforms-
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\pedro\.gradle\caches\transforms-3\5653b644f2a2ad7fed0f9f05df5bc993\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\pedro\.gradle\caches\transforms-3\5653b644f2a2ad7fed0f9f05df5bc993\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:requestLegacyExternalStorage
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:29:9-52
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:27:9-52
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0] C:\Users\pedro\.gradle\caches\transforms-3\eaef0563da0abf069bc2063fa586a386\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:31:9-35
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:29:9-35
 	android:label
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:28:9-41
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:26:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:26:9-42
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:24:9-42
 	android:roundIcon
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:30:9-54
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:28:9-54
 	android:icon
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:27:9-43
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:25:9-43
 	android:allowBackup
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:25:9-36
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:23:9-36
 	android:theme
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:32:9-46
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:30:9-46
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:24:9-56
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:22:9-56
 provider#com.alcachofra.elderoid.utils.GenericFileProvider
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:34:9-42:20
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:32:9-40:20
 	android:grantUriPermissions
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:38:13-47
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:36:13-47
 	android:authorities
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:36:13-67
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:34:13-67
 	android:exported
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:37:13-37
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:35:13-37
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:35:13-77
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:33:13-77
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:39:13-41:58
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:37:13-39:58
 	android:resource
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:41:17-55
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:39:17-55
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:40:17-67
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:38:17-67
 activity#com.alcachofra.elderoid.FakeLauncherActivity
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:44:9-53:20
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:42:9-51:20
 	android:enabled
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:46:13-36
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:44:13-36
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:45:13-72
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:43:13-72
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.HOME
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:47:13-52:29
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:45:13-50:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:48:17-69
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:46:17-69
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:48:25-66
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:46:25-66
 category#android.intent.category.HOME
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:50:17-73
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:48:17-73
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:50:27-70
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:48:27-70
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:51:17-76
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:49:17-76
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:51:27-73
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:49:27-73
 activity#com.alcachofra.elderoid.PhotoActivity
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:54:9-74
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:52:9-74
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:54:19-71
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:52:19-71
 activity#com.alcachofra.elderoid.configuration.GameSuggestionsActivity
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:55:9-57:52
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:53:9-55:52
 	android:screenOrientation
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:57:13-49
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:55:13-49
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:56:13-89
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:54:13-89
 activity#com.alcachofra.elderoid.configuration.CallsConfigurationActivity
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:58:9-60:52
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:56:9-58:52
 	android:screenOrientation
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:60:13-49
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:58:13-49
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:59:13-92
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:57:13-92
 activity#com.alcachofra.elderoid.configuration.ContactsConfigurationActivity
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:61:9-63:52
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:59:9-61:52
 	android:screenOrientation
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:63:13-49
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:61:13-49
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:62:13-95
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:60:13-95
 activity#com.alcachofra.elderoid.configuration.MessagesConfigurationActivity
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:64:9-66:52
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:62:9-64:52
 	android:screenOrientation
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:66:13-49
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:64:13-49
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:65:13-95
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:63:13-95
 activity#com.alcachofra.elderoid.configuration.AppsConfigurationActivity
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:67:9-69:52
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:65:9-67:52
 	android:screenOrientation
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:69:13-49
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:67:13-49
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:68:13-91
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:66:13-91
 activity#com.alcachofra.elderoid.configuration.FlashlightConfigurationActivity
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:70:9-72:52
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:68:9-70:52
 	android:screenOrientation
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:72:13-49
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:70:13-49
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:71:13-97
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:69:13-97
 activity#com.alcachofra.elderoid.configuration.PhotosConfigurationActivity
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:73:9-75:52
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:71:9-73:52
 	android:screenOrientation
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:75:13-49
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:73:13-49
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:74:13-93
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:72:13-93
 activity#com.alcachofra.elderoid.configuration.WeatherConfigurationActivity
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:76:9-78:52
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:74:9-76:52
 	android:screenOrientation
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:78:13-49
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:76:13-49
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:77:13-94
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:75:13-94
 activity#com.alcachofra.elderoid.configuration.LangConfigurationActivity
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:79:9-81:52
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:77:9-79:52
 	android:screenOrientation
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:81:13-49
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:79:13-49
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:80:13-91
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:78:13-91
 activity#com.alcachofra.elderoid.configuration.WelcomeConfigurationActivity
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:82:9-84:52
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:80:9-82:52
 	android:screenOrientation
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:84:13-49
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:82:13-49
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:83:13-94
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:81:13-94
 activity#com.alcachofra.elderoid.configuration.UserConfigurationActivity
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:85:9-87:52
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:83:9-85:52
 	android:screenOrientation
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:87:13-49
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:85:13-49
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:86:13-91
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:84:13-91
 activity#com.alcachofra.elderoid.configuration.FeaturesConfigurationActivity
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:88:9-90:52
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:86:9-88:52
 	android:screenOrientation
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:90:13-49
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:88:13-49
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:89:13-95
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:87:13-95
 activity#com.alcachofra.elderoid.configuration.ChooseAppsConfigurationActivity
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:91:9-93:52
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:89:9-91:52
 	android:screenOrientation
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:93:13-49
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:91:13-49
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:92:13-97
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:90:13-97
 activity#com.alcachofra.elderoid.configuration.PermissionsConfigurationActivity
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:94:9-96:52
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:92:9-94:52
 	android:screenOrientation
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:96:13-49
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:94:13-49
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:95:13-98
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:93:13-98
 activity#com.alcachofra.elderoid.configuration.LauncherConfigurationActivity
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:97:9-99:52
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:95:9-97:52
 	android:screenOrientation
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:99:13-49
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:97:13-49
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:98:13-95
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:96:13-95
 activity#com.alcachofra.elderoid.configuration.FinishConfigurationActivity
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:100:9-102:52
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:98:9-100:52
 	android:screenOrientation
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:102:13-49
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:100:13-49
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:101:13-93
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:99:13-93
 activity#com.alcachofra.elderoid.ContactListActivity
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:103:9-105:52
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:101:9-103:52
 	android:screenOrientation
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:105:13-49
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:103:13-49
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:104:13-71
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:102:13-71
 activity#com.alcachofra.elderoid.AppListActivity
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:106:9-108:52
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:104:9-106:52
 	android:screenOrientation
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:108:13-49
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:106:13-49
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:107:13-67
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:105:13-67
 activity#com.alcachofra.elderoid.DialerActivity
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:109:9-111:52
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:107:9-109:52
 	android:screenOrientation
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:111:13-49
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:109:13-49
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:110:13-66
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:108:13-66
 activity#com.alcachofra.elderoid.WeatherForecastActivity
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:112:9-114:52
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:110:9-112:52
 	android:screenOrientation
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:114:13-49
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:112:13-49
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:113:13-75
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:111:13-75
 activity#com.alcachofra.elderoid.GalleryActivity
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:115:9-117:52
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:113:9-115:52
 	android:screenOrientation
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:117:13-49
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:115:13-49
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:116:13-67
-activity#com.alcachofra.elderoid.CallLogActivity
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:118:9-120:52
-	android:screenOrientation
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:120:13-49
-	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:119:13-67
-activity#com.alcachofra.elderoid.MissedCallsActivity
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:121:9-123:52
-	android:screenOrientation
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:123:13-49
-	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:122:13-71
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:114:13-67
 activity#com.alcachofra.elderoid.AddContactActivity
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:124:9-126:52
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:116:9-118:52
 	android:screenOrientation
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:126:13-49
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:118:13-49
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:125:13-70
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:117:13-70
 activity#com.alcachofra.elderoid.SettingsActivity
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:127:9-129:52
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:119:9-121:52
 	android:screenOrientation
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:129:13-49
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:121:13-49
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:128:13-68
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:120:13-68
 activity#com.alcachofra.elderoid.MenuActivity
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:130:9-143:20
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:122:9-135:20
 	android:screenOrientation
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:133:13-49
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:125:13-49
 	android:stateNotNeeded
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:134:13-42
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:126:13-42
 	android:launchMode
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:132:13-44
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:124:13-44
 	android:theme
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:135:13-50
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:127:13-50
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:131:13-64
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:123:13-64
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.HOME+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:136:13-142:29
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:128:13-134:29
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:141:17-77
+ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:133:17-77
 	android:name
-		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:141:27-74
+		ADDED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:133:27-74
 uses-sdk
 INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml

@@ -44,12 +44,12 @@
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-anydpi-v21\\ic_weather.xml"
     },
     {
-        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_ic_calendar.png.flat",
-        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\drawable-xhdpi\\ic_calendar.png"
-    },
-    {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\layout_row_delete_contact.xml.flat",
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\layout\\row_delete_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_ic_calendar.png.flat",
+        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\drawable-xhdpi\\ic_calendar.png"
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi_ic_call.png.flat",
@@ -64,28 +64,28 @@
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\ic_apps.png"
     },
     {
-        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_gallery.png.flat",
-        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\drawable-hdpi\\ic_gallery.png"
+        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\anim_small_scale_up.xml.flat",
+        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\anim\\small_scale_up.xml"
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-anydpi-v21_ic_call.xml.flat",
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-anydpi-v21\\ic_call.xml"
     },
     {
-        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\anim_small_scale_up.xml.flat",
-        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\anim\\small_scale_up.xml"
+        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_gallery.png.flat",
+        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\drawable-hdpi\\ic_gallery.png"
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi_ic_message.png.flat",
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\ic_message.png"
     },
     {
-        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_netie_concerned.png.flat",
-        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\drawable-hdpi\\netie_concerned.png"
-    },
-    {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_ic_gallery.png.flat",
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\drawable-mdpi\\ic_gallery.png"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_netie_concerned.png.flat",
+        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\drawable-hdpi\\netie_concerned.png"
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_gears.png.flat",
@@ -116,12 +116,12 @@
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\layout\\activity_gallery.xml"
     },
     {
-        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable_battery_edge.xml.flat",
-        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\drawable\\battery_edge.xml"
-    },
-    {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_ic_call_received.png.flat",
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-xxxhdpi\\ic_call_received.png"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable_battery_edge.xml.flat",
+        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\drawable\\battery_edge.xml"
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_ic_message.png.flat",

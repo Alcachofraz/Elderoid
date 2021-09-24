@@ -128,16 +128,16 @@
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_call_missed.xml"
     },
     {
-        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_launcher_configuration.xml.flat",
-        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\layout\\activity_launcher_configuration.xml"
+        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_game.png.flat",
+        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_game.png"
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_newspaper.png.flat",
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\drawable-xhdpi\\ic_newspaper.png"
     },
     {
-        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_game.png.flat",
-        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_game.png"
+        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_launcher_configuration.xml.flat",
+        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\layout\\activity_launcher_configuration.xml"
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_back.png.flat",

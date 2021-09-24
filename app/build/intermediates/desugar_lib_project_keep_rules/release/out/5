@@ -2,9 +2,6 @@
     j$.util.function.Consumer $default$andThen(j$.util.function.Consumer, j$.util.function.Consumer);
 }
 -keep class j$.util.function.Consumer { *; }
--keep class j$.util.Comparator$-CC {
-    java.util.Comparator reverseOrder();
-}
 -keep class j$.time.LocalTime {
     int getHour();
     j$.time.LocalTime now();

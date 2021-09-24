@@ -21,6 +21,7 @@ import android.provider.Settings;
 
 import com.alcachofra.elderoid.Elderoid;
 import com.alcachofra.elderoid.FakeLauncherActivity;
+import com.alcachofra.elderoid.MenuActivity;
 import com.alcachofra.elderoid.R;
 import com.alcachofra.elderoid.utils.ElderoidActivity;
 import com.alcachofra.elderoid.utils.netie.Cue;
@@ -79,12 +80,28 @@ public class LauncherConfigurationActivity extends ElderoidActivity {
         gears.setOnClickListener(v -> startActivity(new Intent(Settings.ACTION_SETTINGS)));
     }
 
+    ActivityResultLauncher<Intent> activityResultLauncher = registerForActivityResult(
+        new ActivityResultContracts.StartActivityForResult(),
+        new ActivityResultCallback<ActivityResult>() {
+            @Override
+            public void onActivityResult(ActivityResult result) {
+                if (result.getResultCode() == Activity.RESULT_OK) {
+                    if (result.getResultCode() != Activity.RESULT_OK) {
+                        netie.setBalloon(Elderoid.string(R.string.config_error))
+                                .setExpression(R.drawable.netie_concerned);
+                    }
+                    else startActivity(new Intent(getApplicationContext(), MenuActivity.class));
+                }
+            }
+        }
+    );
+
     private void chooseLauncher() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
             RoleManager roleManager = (RoleManager) getSystemService(Context.ROLE_SERVICE);
             if (roleManager.isRoleAvailable(RoleManager.ROLE_HOME)) {
                 Intent intent = roleManager.createRequestRoleIntent(RoleManager.ROLE_HOME);
-                startActivityForResult(intent, REQUEST_LAUNCHER_CHOOSER);
+                activityResultLauncher.launch(intent);
             }
         }
         else {
@@ -108,17 +125,6 @@ public class LauncherConfigurationActivity extends ElderoidActivity {
 
                     p.setComponentEnabledSetting(cN, PackageManager.COMPONENT_ENABLED_STATE_DISABLED, PackageManager.DONT_KILL_APP);
                 }
-            }
-        }
-    }
-
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == REQUEST_LAUNCHER_CHOOSER) {
-            if (resultCode != Activity.RESULT_OK) {
-                netie.setBalloon(Elderoid.string(R.string.config_error))
-                        .setExpression(R.drawable.netie_concerned);
             }
         }
     }

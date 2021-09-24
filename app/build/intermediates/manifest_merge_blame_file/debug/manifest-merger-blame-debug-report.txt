@@ -1,8 +1,8 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.alcachofra.elderoid"
-4    android:versionCode="1"
-5    android:versionName="1.0" >
+4    android:versionCode="6"
+5    android:versionName="6.0" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="19"
@@ -34,276 +34,258 @@
 18    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
 18-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:12:5-77
 18-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:12:22-74
-19    <uses-permission android:name="android.permission.READ_CALL_LOG" />
-19-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:13:5-72
-19-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:13:22-69
-20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-20-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:14:5-80
-20-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:14:22-77
-21    <uses-permission android:name="android.permission.READ_SMS" />
-21-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:15:5-67
-21-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:15:22-64
-22    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
-22-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:16:5-73
-22-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:16:22-70
-23    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-23-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:17:5-81
-23-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:17:22-78
-24    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
-24-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:18:5-73
-24-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:18:22-70
-25    <uses-permission android:name="android.permission.CAMERA" />
-25-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:19:5-65
-25-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:19:22-62
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:13:5-80
+19-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:13:22-77
+20    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+20-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:14:5-73
+20-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:14:22-70
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:15:5-81
+21-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:15:22-78
+22    <uses-permission android:name="android.permission.CAMERA" />
+22-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:16:5-65
+22-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:16:22-62
+23    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+23-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:17:5-77
+23-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:17:22-74
+24
+25    <uses-feature android:name="android.hardware.camera" />
+25-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:19:5-60
+25-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:19:19-57
 26
-27    <uses-feature android:name="android.hardware.camera" />
-27-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:21:5-60
-27-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:21:19-57
-28
-29    <application
-29-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:23:5-144:19
-30        android:name="com.alcachofra.elderoid.Elderoid"
-30-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:24:9-56
-31        android:allowBackup="false"
-31-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:25:9-36
-32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-32-->[androidx.core:core:1.5.0] C:\Users\pedro\.gradle\caches\transforms-3\eaef0563da0abf069bc2063fa586a386\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
-33        android:debuggable="true"
-34        android:fullBackupContent="false"
-34-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:26:9-42
-35        android:icon="@mipmap/ic_launcher"
-35-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:27:9-43
-36        android:label="@string/app_name"
-36-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:28:9-41
-37        android:requestLegacyExternalStorage="true"
-37-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:29:9-52
-38        android:roundIcon="@mipmap/ic_launcher_round"
-38-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:30:9-54
-39        android:supportsRtl="true"
-39-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:31:9-35
-40        android:testOnly="true"
-41        android:theme="@style/Theme.elderoid" >
-41-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:32:9-46
-42        <provider
-42-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:34:9-42:20
-43            android:name="com.alcachofra.elderoid.utils.GenericFileProvider"
-43-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:35:13-77
-44            android:authorities="com.alcachofra.elderoid.provider"
-44-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:36:13-67
-45            android:exported="false"
-45-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:37:13-37
-46            android:grantUriPermissions="true" >
-46-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:38:13-47
-47            <meta-data
-47-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:39:13-41:58
-48                android:name="android.support.FILE_PROVIDER_PATHS"
-48-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:40:17-67
-49                android:resource="@xml/provider_paths" />
-49-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:41:17-55
-50        </provider>
-51
-52        <activity
-52-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:44:9-53:20
-53            android:name="com.alcachofra.elderoid.FakeLauncherActivity"
-53-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:45:13-72
-54            android:enabled="false" >
-54-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:46:13-36
-55            <intent-filter>
-55-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:47:13-52:29
-56                <action android:name="android.intent.action.MAIN" />
-56-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:48:17-69
-56-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:48:25-66
-57
-58                <category android:name="android.intent.category.HOME" />
-58-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:50:17-73
-58-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:50:27-70
-59                <category android:name="android.intent.category.DEFAULT" />
-59-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:51:17-76
-59-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:51:27-73
-60            </intent-filter>
-61        </activity>
-62        <activity android:name="com.alcachofra.elderoid.PhotoActivity" />
-62-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:54:9-74
-62-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:54:19-71
-63        <activity
-63-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:55:9-57:52
-64            android:name="com.alcachofra.elderoid.configuration.GameSuggestionsActivity"
-64-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:56:13-89
-65            android:screenOrientation="portrait" />
-65-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:57:13-49
-66        <activity
-66-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:58:9-60:52
-67            android:name="com.alcachofra.elderoid.configuration.CallsConfigurationActivity"
-67-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:59:13-92
-68            android:screenOrientation="portrait" />
-68-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:60:13-49
-69        <activity
-69-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:61:9-63:52
-70            android:name="com.alcachofra.elderoid.configuration.ContactsConfigurationActivity"
-70-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:62:13-95
-71            android:screenOrientation="portrait" />
-71-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:63:13-49
-72        <activity
-72-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:64:9-66:52
-73            android:name="com.alcachofra.elderoid.configuration.MessagesConfigurationActivity"
-73-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:65:13-95
-74            android:screenOrientation="portrait" />
-74-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:66:13-49
-75        <activity
-75-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:67:9-69:52
-76            android:name="com.alcachofra.elderoid.configuration.AppsConfigurationActivity"
-76-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:68:13-91
-77            android:screenOrientation="portrait" />
-77-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:69:13-49
-78        <activity
-78-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:70:9-72:52
-79            android:name="com.alcachofra.elderoid.configuration.FlashlightConfigurationActivity"
-79-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:71:13-97
-80            android:screenOrientation="portrait" />
-80-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:72:13-49
-81        <activity
-81-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:73:9-75:52
-82            android:name="com.alcachofra.elderoid.configuration.PhotosConfigurationActivity"
-82-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:74:13-93
-83            android:screenOrientation="portrait" />
-83-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:75:13-49
-84        <activity
-84-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:76:9-78:52
-85            android:name="com.alcachofra.elderoid.configuration.WeatherConfigurationActivity"
-85-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:77:13-94
-86            android:screenOrientation="portrait" />
-86-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:78:13-49
-87        <activity
-87-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:79:9-81:52
-88            android:name="com.alcachofra.elderoid.configuration.LangConfigurationActivity"
-88-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:80:13-91
-89            android:screenOrientation="portrait" />
-89-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:81:13-49
-90        <activity
-90-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:82:9-84:52
-91            android:name="com.alcachofra.elderoid.configuration.WelcomeConfigurationActivity"
-91-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:83:13-94
-92            android:screenOrientation="portrait" />
-92-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:84:13-49
-93        <activity
-93-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:85:9-87:52
-94            android:name="com.alcachofra.elderoid.configuration.UserConfigurationActivity"
-94-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:86:13-91
-95            android:screenOrientation="portrait" />
-95-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:87:13-49
-96        <activity
-96-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:88:9-90:52
-97            android:name="com.alcachofra.elderoid.configuration.FeaturesConfigurationActivity"
-97-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:89:13-95
-98            android:screenOrientation="portrait" />
-98-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:90:13-49
-99        <activity
-99-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:91:9-93:52
-100            android:name="com.alcachofra.elderoid.configuration.ChooseAppsConfigurationActivity"
-100-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:92:13-97
-101            android:screenOrientation="portrait" />
-101-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:93:13-49
-102        <activity
-102-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:94:9-96:52
-103            android:name="com.alcachofra.elderoid.configuration.PermissionsConfigurationActivity"
-103-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:95:13-98
-104            android:screenOrientation="portrait" />
-104-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:96:13-49
-105        <activity
-105-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:97:9-99:52
-106            android:name="com.alcachofra.elderoid.configuration.LauncherConfigurationActivity"
-106-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:98:13-95
-107            android:screenOrientation="portrait" />
-107-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:99:13-49
-108        <activity
-108-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:100:9-102:52
-109            android:name="com.alcachofra.elderoid.configuration.FinishConfigurationActivity"
-109-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:101:13-93
-110            android:screenOrientation="portrait" />
-110-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:102:13-49
-111        <activity
-111-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:103:9-105:52
-112            android:name="com.alcachofra.elderoid.ContactListActivity"
-112-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:104:13-71
-113            android:screenOrientation="portrait" />
-113-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:105:13-49
-114        <activity
-114-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:106:9-108:52
-115            android:name="com.alcachofra.elderoid.AppListActivity"
-115-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:107:13-67
-116            android:screenOrientation="portrait" />
-116-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:108:13-49
-117        <activity
-117-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:109:9-111:52
-118            android:name="com.alcachofra.elderoid.DialerActivity"
-118-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:110:13-66
-119            android:screenOrientation="portrait" />
-119-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:111:13-49
-120        <activity
-120-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:112:9-114:52
-121            android:name="com.alcachofra.elderoid.WeatherForecastActivity"
-121-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:113:13-75
-122            android:screenOrientation="portrait" />
-122-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:114:13-49
-123        <activity
-123-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:115:9-117:52
-124            android:name="com.alcachofra.elderoid.GalleryActivity"
-124-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:116:13-67
-125            android:screenOrientation="portrait" />
-125-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:117:13-49
-126        <activity
-126-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:118:9-120:52
-127            android:name="com.alcachofra.elderoid.CallLogActivity"
-127-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:119:13-67
-128            android:screenOrientation="portrait" />
-128-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:120:13-49
-129        <activity
-129-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:121:9-123:52
-130            android:name="com.alcachofra.elderoid.MissedCallsActivity"
-130-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:122:13-71
-131            android:screenOrientation="portrait" />
-131-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:123:13-49
-132        <activity
-132-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:124:9-126:52
-133            android:name="com.alcachofra.elderoid.AddContactActivity"
-133-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:125:13-70
-134            android:screenOrientation="portrait" />
-134-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:126:13-49
-135        <activity
-135-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:127:9-129:52
-136            android:name="com.alcachofra.elderoid.SettingsActivity"
-136-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:128:13-68
-137            android:screenOrientation="portrait" />
-137-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:129:13-49
-138        <activity
-138-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:130:9-143:20
-139            android:name="com.alcachofra.elderoid.MenuActivity"
-139-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:131:13-64
-140            android:launchMode="singleTask"
-140-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:132:13-44
-141            android:screenOrientation="portrait"
-141-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:133:13-49
-142            android:stateNotNeeded="true"
-142-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:134:13-42
-143            android:theme="@style/Theme.elderoid" >
-143-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:135:13-50
-144            <intent-filter>
-144-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:136:13-142:29
-145                <action android:name="android.intent.action.MAIN" />
-145-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:48:17-69
-145-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:48:25-66
-146
-147                <category android:name="android.intent.category.HOME" />
-147-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:50:17-73
-147-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:50:27-70
-148                <category android:name="android.intent.category.DEFAULT" />
-148-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:51:17-76
-148-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:51:27-73
-149                <category android:name="android.intent.category.LAUNCHER" />
-149-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:141:17-77
-149-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:141:27-74
-150            </intent-filter>
-151        </activity>
-152    </application>
-153
-154</manifest>
+27    <application
+27-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:21:5-136:19
+28        android:name="com.alcachofra.elderoid.Elderoid"
+28-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:22:9-56
+29        android:allowBackup="false"
+29-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:23:9-36
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.5.0] C:\Users\pedro\.gradle\caches\transforms-3\eaef0563da0abf069bc2063fa586a386\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:fullBackupContent="false"
+32-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:24:9-42
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:25:9-43
+34        android:label="@string/app_name"
+34-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:26:9-41
+35        android:requestLegacyExternalStorage="true"
+35-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:27:9-52
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:28:9-54
+37        android:supportsRtl="true"
+37-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:29:9-35
+38        android:testOnly="true"
+39        android:theme="@style/Theme.elderoid" >
+39-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:30:9-46
+40        <provider
+40-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:32:9-40:20
+41            android:name="com.alcachofra.elderoid.utils.GenericFileProvider"
+41-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:33:13-77
+42            android:authorities="com.alcachofra.elderoid.provider"
+42-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:34:13-67
+43            android:exported="false"
+43-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:35:13-37
+44            android:grantUriPermissions="true" >
+44-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:36:13-47
+45            <meta-data
+45-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:37:13-39:58
+46                android:name="android.support.FILE_PROVIDER_PATHS"
+46-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:38:17-67
+47                android:resource="@xml/provider_paths" />
+47-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:39:17-55
+48        </provider>
+49
+50        <activity
+50-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:42:9-51:20
+51            android:name="com.alcachofra.elderoid.FakeLauncherActivity"
+51-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:43:13-72
+52            android:enabled="false" >
+52-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:44:13-36
+53            <intent-filter>
+53-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:45:13-50:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:46:17-69
+54-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:46:25-66
+55
+56                <category android:name="android.intent.category.HOME" />
+56-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:48:17-73
+56-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:48:27-70
+57                <category android:name="android.intent.category.DEFAULT" />
+57-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:49:17-76
+57-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:49:27-73
+58            </intent-filter>
+59        </activity>
+60        <activity android:name="com.alcachofra.elderoid.PhotoActivity" />
+60-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:52:9-74
+60-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:52:19-71
+61        <activity
+61-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:53:9-55:52
+62            android:name="com.alcachofra.elderoid.configuration.GameSuggestionsActivity"
+62-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:54:13-89
+63            android:screenOrientation="portrait" />
+63-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:55:13-49
+64        <activity
+64-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:56:9-58:52
+65            android:name="com.alcachofra.elderoid.configuration.CallsConfigurationActivity"
+65-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:57:13-92
+66            android:screenOrientation="portrait" />
+66-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:58:13-49
+67        <activity
+67-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:59:9-61:52
+68            android:name="com.alcachofra.elderoid.configuration.ContactsConfigurationActivity"
+68-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:60:13-95
+69            android:screenOrientation="portrait" />
+69-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:61:13-49
+70        <activity
+70-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:62:9-64:52
+71            android:name="com.alcachofra.elderoid.configuration.MessagesConfigurationActivity"
+71-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:63:13-95
+72            android:screenOrientation="portrait" />
+72-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:64:13-49
+73        <activity
+73-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:65:9-67:52
+74            android:name="com.alcachofra.elderoid.configuration.AppsConfigurationActivity"
+74-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:66:13-91
+75            android:screenOrientation="portrait" />
+75-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:67:13-49
+76        <activity
+76-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:68:9-70:52
+77            android:name="com.alcachofra.elderoid.configuration.FlashlightConfigurationActivity"
+77-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:69:13-97
+78            android:screenOrientation="portrait" />
+78-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:70:13-49
+79        <activity
+79-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:71:9-73:52
+80            android:name="com.alcachofra.elderoid.configuration.PhotosConfigurationActivity"
+80-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:72:13-93
+81            android:screenOrientation="portrait" />
+81-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:73:13-49
+82        <activity
+82-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:74:9-76:52
+83            android:name="com.alcachofra.elderoid.configuration.WeatherConfigurationActivity"
+83-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:75:13-94
+84            android:screenOrientation="portrait" />
+84-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:76:13-49
+85        <activity
+85-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:77:9-79:52
+86            android:name="com.alcachofra.elderoid.configuration.LangConfigurationActivity"
+86-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:78:13-91
+87            android:screenOrientation="portrait" />
+87-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:79:13-49
+88        <activity
+88-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:80:9-82:52
+89            android:name="com.alcachofra.elderoid.configuration.WelcomeConfigurationActivity"
+89-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:81:13-94
+90            android:screenOrientation="portrait" />
+90-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:82:13-49
+91        <activity
+91-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:83:9-85:52
+92            android:name="com.alcachofra.elderoid.configuration.UserConfigurationActivity"
+92-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:84:13-91
+93            android:screenOrientation="portrait" />
+93-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:85:13-49
+94        <activity
+94-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:86:9-88:52
+95            android:name="com.alcachofra.elderoid.configuration.FeaturesConfigurationActivity"
+95-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:87:13-95
+96            android:screenOrientation="portrait" />
+96-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:88:13-49
+97        <activity
+97-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:89:9-91:52
+98            android:name="com.alcachofra.elderoid.configuration.ChooseAppsConfigurationActivity"
+98-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:90:13-97
+99            android:screenOrientation="portrait" />
+99-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:91:13-49
+100        <activity
+100-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:92:9-94:52
+101            android:name="com.alcachofra.elderoid.configuration.PermissionsConfigurationActivity"
+101-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:93:13-98
+102            android:screenOrientation="portrait" />
+102-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:94:13-49
+103        <activity
+103-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:95:9-97:52
+104            android:name="com.alcachofra.elderoid.configuration.LauncherConfigurationActivity"
+104-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:96:13-95
+105            android:screenOrientation="portrait" />
+105-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:97:13-49
+106        <activity
+106-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:98:9-100:52
+107            android:name="com.alcachofra.elderoid.configuration.FinishConfigurationActivity"
+107-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:99:13-93
+108            android:screenOrientation="portrait" />
+108-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:100:13-49
+109        <activity
+109-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:101:9-103:52
+110            android:name="com.alcachofra.elderoid.ContactListActivity"
+110-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:102:13-71
+111            android:screenOrientation="portrait" />
+111-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:103:13-49
+112        <activity
+112-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:104:9-106:52
+113            android:name="com.alcachofra.elderoid.AppListActivity"
+113-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:105:13-67
+114            android:screenOrientation="portrait" />
+114-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:106:13-49
+115        <activity
+115-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:107:9-109:52
+116            android:name="com.alcachofra.elderoid.DialerActivity"
+116-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:108:13-66
+117            android:screenOrientation="portrait" />
+117-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:109:13-49
+118        <activity
+118-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:110:9-112:52
+119            android:name="com.alcachofra.elderoid.WeatherForecastActivity"
+119-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:111:13-75
+120            android:screenOrientation="portrait" />
+120-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:112:13-49
+121        <activity
+121-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:113:9-115:52
+122            android:name="com.alcachofra.elderoid.GalleryActivity"
+122-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:114:13-67
+123            android:screenOrientation="portrait" />
+123-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:115:13-49
+124        <activity
+124-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:116:9-118:52
+125            android:name="com.alcachofra.elderoid.AddContactActivity"
+125-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:117:13-70
+126            android:screenOrientation="portrait" />
+126-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:118:13-49
+127        <activity
+127-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:119:9-121:52
+128            android:name="com.alcachofra.elderoid.SettingsActivity"
+128-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:120:13-68
+129            android:screenOrientation="portrait" />
+129-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:121:13-49
+130        <activity
+130-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:122:9-135:20
+131            android:name="com.alcachofra.elderoid.MenuActivity"
+131-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:123:13-64
+132            android:launchMode="singleTask"
+132-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:124:13-44
+133            android:screenOrientation="portrait"
+133-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:125:13-49
+134            android:stateNotNeeded="true"
+134-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:126:13-42
+135            android:theme="@style/Theme.elderoid" >
+135-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:127:13-50
+136            <intent-filter>
+136-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:128:13-134:29
+137                <action android:name="android.intent.action.MAIN" />
+137-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:46:17-69
+137-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:46:25-66
+138
+139                <category android:name="android.intent.category.HOME" />
+139-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:48:17-73
+139-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:48:27-70
+140                <category android:name="android.intent.category.DEFAULT" />
+140-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:49:17-76
+140-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:49:27-73
+141                <category android:name="android.intent.category.LAUNCHER" />
+141-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:133:17-77
+141-->C:\Users\pedro\Desktop\Projetos\Android Apps\Elderoid\app\src\main\AndroidManifest.xml:133:27-74
+142            </intent-filter>
+143        </activity>
+144    </application>
+145
+146</manifest>
