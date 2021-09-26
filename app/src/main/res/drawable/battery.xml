@@ -8,7 +8,7 @@
                 android:bottomLeftRadius="@dimen/_6sdp"
                 android:topRightRadius="@dimen/_6sdp"
                 android:topLeftRadius="@dimen/_6sdp"/>
-            <stroke android:width="@dimen/_2.6sdp" android:color="@color/dark_main" />
+            <stroke android:width="@dimen/_2.6sdp" android:color="@color/outline" />
         </shape>
     </item>
     <item android:state_pressed="true">
@@ -19,7 +19,7 @@
                 android:bottomLeftRadius="@dimen/_6sdp"
                 android:topRightRadius="@dimen/_6sdp"
                 android:topLeftRadius="@dimen/_6sdp"/>
-            <stroke android:width="@dimen/_2.6sdp" android:color="@color/dark_main" />
+            <stroke android:width="@dimen/_2.6sdp" android:color="@color/outline" />
         </shape>
     </item>
 </selector>

@@ -10,6 +10,7 @@
         android:id="@+id/menu_constraint_layout"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:background="@color/background"
         app:layout_constraintBottom_toTopOf="@+id/netie_window"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,15 +50,16 @@
                 android:layout_height="wrap_content">
 
                 <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/launcher"
+                    android:id="@+id/lang"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/_10sdp"
                     android:background="@drawable/rounded_button_clickable"
                     android:padding="@dimen/_10sdp"
+                    android:text="@string/language"
                     android:textSize="@dimen/_15ssp"
                     android:textColor="@color/text"
-                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintBottom_toTopOf="@+id/functionalities"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent">
 
@@ -89,7 +91,7 @@
                     android:text="@string/change_name"
                     android:textSize="@dimen/_15ssp"
                     android:textColor="@color/text"
-                    app:layout_constraintBottom_toTopOf="@+id/launcher"
+                    app:layout_constraintBottom_toTopOf="@+id/temp_choose_view"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent">
 
@@ -100,20 +102,20 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/_10sdp"
-                    android:visibility="gone"
+
                     android:background="@drawable/rounded_button_clickable"
                     android:paddingHorizontal="@dimen/_12sdp"
-                    android:paddingVertical="@dimen/_9sdp"
-                    app:layout_constraintBottom_toTopOf="@+id/functionalities"
+                    android:paddingVertical="@dimen/_1sdp"
+                    app:layout_constraintBottom_toTopOf="@+id/launcher"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent">
 
                     <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/celsius"
                         android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
                         android:text="℃"
-                        android:textColor="@color/dark_main"
+                        android:textColor="@color/text"
                         android:textSize="@dimen/_15ssp"
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -139,7 +141,7 @@
                     <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/fahrenheit"
                         android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
                         android:text="℉"
                         android:textColor="@color/text"
                         android:textSize="@dimen/_15ssp"
@@ -154,16 +156,15 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/lang"
+                    android:id="@+id/launcher"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/_10sdp"
                     android:background="@drawable/rounded_button_clickable"
                     android:padding="@dimen/_10sdp"
-                    android:text="@string/language"
                     android:textSize="@dimen/_15ssp"
                     android:textColor="@color/text"
-                    app:layout_constraintBottom_toTopOf="@+id/temp_choose_view"
+                    app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent">
 

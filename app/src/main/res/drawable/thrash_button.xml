@@ -2,24 +2,24 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="false">
         <shape android:shape="rectangle">
-            <solid android:color="@color/light_main" />
+            <solid android:color="@color/primary" />
             <corners
                 android:bottomRightRadius="@dimen/_6sdp"
                 android:bottomLeftRadius="@dimen/_6sdp"
                 android:topRightRadius="@dimen/_6sdp"
                 android:topLeftRadius="@dimen/_6sdp"/>
-            <stroke android:width="@dimen/_2.6sdp" android:color="@color/dark_main" />
+            <stroke android:width="@dimen/_2.6sdp" android:color="@color/outline" />
         </shape>
     </item>
     <item android:state_pressed="true">
         <shape android:shape="rectangle">
-            <solid android:color="@color/main"/>
+            <solid android:color="@color/secondary"/>
             <corners
                 android:bottomRightRadius="@dimen/_6sdp"
                 android:bottomLeftRadius="@dimen/_6sdp"
                 android:topRightRadius="@dimen/_6sdp"
                 android:topLeftRadius="@dimen/_6sdp"/>
-            <stroke android:width="@dimen/_2.6sdp" android:color="@color/dark_main" />
+            <stroke android:width="@dimen/_2.6sdp" android:color="@color/outline" />
         </shape>
     </item>
 </selector>

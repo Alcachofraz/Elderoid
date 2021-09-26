@@ -40,7 +40,7 @@
     <string name="config_welcome_2">Sempre que quiseres, podes clicar em mim para eu ajudar-te.</string>
     <string name="config_welcome_3">Isso mesmo! Muito bem.</string>
     <string name="config_welcome_4">Agora já podes parar.</string>
-    <string name="config_welcome_5">Por favor, estás a aleijar-me...</string>
+    <string name="config_welcome_5">Por favor, estás a aleijar-me&#8230;</string>
     <string name="config_welcome_6">Estou a brincar! Podes clicar em mim as vezes que quiseres!</string>
     <string name="config_user_1">Como é que te devo chamar? Basta o primeiro nome.</string>
     <string name="config_user_2">Podes também escolher a tua linguagem.</string>
@@ -180,7 +180,7 @@
     <string name="photo_save_error">Ocorreu um erro. A foto não foi guardada.</string>
     <string name="photo_error">Ocorreu um erro ao tentar abrir esta foto.</string>
     <string name="no_func_selected">Não selecionaste nenhuma funcionalidade.</string>
-    <string name="wait">Aguarda um momento...</string>
+    <string name="wait">Aguarda um momento&#8230;</string>
     <string name="no_apps_1">Não tens nenhuma aplicação. Queres adicionar?</string>
     <string name="no_apps_2">Podes pedir ajuda a alguém para instalar jogos, por exemplo.</string>
     <string name="add_contact_error">Aconteceu um erro. Tens a certeza que preencheste o nome e telefone corretamente?</string>
@@ -260,6 +260,9 @@
     <string name="change">Alterar</string>
     <string name="topic">Tópico</string>
     <string name="language">Linguagem</string>
+    <string name="theme">Tema</string>
+    <string name="light">Claro</string>
+    <string name="dark">Escuro</string>
     <string name="of">de</string>
     <string name="see_more">VER MAIS</string>
     <string name="install">INSTALAR</string>

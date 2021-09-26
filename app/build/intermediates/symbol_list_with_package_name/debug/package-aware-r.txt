@@ -1093,7 +1093,6 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
-color balloon
 color black
 color blue
 color bright_foreground_disabled_material_dark
@@ -1114,7 +1113,6 @@ color cardview_shadow_start_color
 color checkbox_themeable_attribute_color
 color contacts_icon
 color corner_icon
-color dark_main
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -1165,9 +1163,7 @@ color gallery_icon
 color green
 color highlighted_text_material_dark
 color highlighted_text_material_light
-color light_beige
-color light_main
-color main
+color icon_bg
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -1258,6 +1254,8 @@ color notification_action_color_filter
 color notification_icon_bg_color
 color notification_material_background_media_default_color
 color orange
+color outline
+color primary
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -1270,6 +1268,7 @@ color radiobutton_themeable_attribute_color
 color red
 color ripple_material_dark
 color ripple_material_light
+color secondary
 color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
@@ -2572,9 +2571,6 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable button
-drawable checkbox
-drawable checkbox_checked
-drawable checkbox_unchecked
 drawable circle
 drawable design_fab_background
 drawable design_ic_visibility
@@ -2597,6 +2593,7 @@ drawable ic_check
 drawable ic_clock_black_24dp
 drawable ic_contacts
 drawable ic_cross
+drawable ic_dark
 drawable ic_dashed_arrow
 drawable ic_delete
 drawable ic_eraser
@@ -2605,6 +2602,7 @@ drawable ic_gallery
 drawable ic_game
 drawable ic_gears
 drawable ic_keyboard_black_24dp
+drawable ic_light
 drawable ic_loading
 drawable ic_message
 drawable ic_mtrl_checked_circle
@@ -3275,6 +3273,7 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id weather
 id weather_icon
 id west
 id withText
@@ -3625,6 +3624,7 @@ string cue_contacts
 string cue_gallery
 string cue_messages
 string cue_weather
+string dark
 string day_went_bad
 string day_went_well
 string definitely_error_news
@@ -3715,6 +3715,7 @@ string install
 string internet_needed
 string item_view_role_description
 string language
+string light
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_selection
@@ -3827,6 +3828,7 @@ string status_bar_notification_info_overflow
 string sunday
 string temp_not_working
 string the_time_is
+string theme
 string thursday
 string title_add_contact
 string title_app_list

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="light_beige">#F5F5DC</color>
+    <color name="icon_bg">#F5F5DC</color>
 
     <color name="corner_icon">#3A3734</color>
+
     <color name="messages_icon">#005599</color>
     <color name="camera_icon">#555555</color>
     <color name="gallery_icon">#009999</color>
@@ -10,14 +11,13 @@
     <color name="contacts_icon">#5444C2</color>
     <color name="apps_icon">#D1771A</color>
 
-    <color name="balloon">#3A3734</color>
     <color name="background">#FFFFFFFF</color>
 
     <color name="text">#3A3734</color>
 
-    <color name="light_main">#F5F5DC</color>
-    <color name="main">#A39379</color>
-    <color name="dark_main">#3A3734</color>
+    <color name="primary">#F5F5DC</color>
+    <color name="secondary">#A39379</color>
+    <color name="outline">#3A3734</color>
 
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>

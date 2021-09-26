@@ -9,7 +9,7 @@
         android:id="@+id/input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/main"
+        android:outlineSpotShadowColor="@color/secondary"
         android:maxLines="1"
         android:maxLength="20"
         android:inputType="text"

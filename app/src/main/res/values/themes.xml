@@ -4,11 +4,11 @@
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/text</item>
         <item name="colorPrimaryDark">@color/text</item>
-        <item name="colorAccent">@color/light_main</item>
+        <item name="colorAccent">@color/text</item>
     </style>
     <style name="SwitchTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorControlActivated">@color/text</item>
         <item name="colorSwitchThumbNormal">@color/text</item>
-        <item name="trackTint">@color/main</item>
+        <item name="trackTint">@color/secondary</item>
     </style>
 </resources>

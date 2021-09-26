@@ -9,6 +9,7 @@
         android:id="@+id/menu_constraint_layout"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:background="@color/background"
         app:layout_constraintBottom_toTopOf="@+id/netie_window"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -57,7 +58,8 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/day2"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
+                app:layout_constraintTop_toTopOf="parent"
+                android:focusable="true">
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/text_weekday1"
@@ -118,7 +120,8 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/day1">
+                app:layout_constraintStart_toEndOf="@+id/day1"
+                android:focusable="true">
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/text_weekday2"
@@ -193,7 +196,8 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/day4"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
+                app:layout_constraintTop_toTopOf="parent"
+                android:focusable="true">
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/text_weekday3"
@@ -254,7 +258,8 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/day3">
+                app:layout_constraintStart_toEndOf="@+id/day3"
+                android:focusable="true">
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/text_weekday4"

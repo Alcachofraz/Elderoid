@@ -127,7 +127,7 @@
                             android:layout_width="0dp"
                             android:layout_height="0dp"
                             android:layout_margin="@dimen/_6sdp"
-                            android:tint="@color/dark_main"
+                            android:tint="@color/outline"
                             android:visibility="invisible"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -163,6 +163,7 @@
             android:id="@+id/buttons_constraint"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:background="@color/background"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -399,6 +400,21 @@
                 android:scaleType="fitCenter"
                 android:src="@drawable/ic_call_log"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent">
+
+            </com.alcachofra.elderoid.utils.animatedViews.AnimatedImageButton>
+
+            <com.alcachofra.elderoid.utils.animatedViews.AnimatedImageButton
+                android:id="@+id/weather"
+                android:layout_width="@dimen/_48sdp"
+                android:layout_height="@dimen/_48sdp"
+                android:layout_margin="@dimen/_10sdp"
+                android:padding="@dimen/_7sdp"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_weather"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent">
 
             </com.alcachofra.elderoid.utils.animatedViews.AnimatedImageButton>

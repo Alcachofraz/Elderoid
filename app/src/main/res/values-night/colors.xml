@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="light_beige">#F5F5DC</color>
+    <color name="icon_bg">#F5F5DC</color>
 
-    <color name="corner_icon">#F5F5DC</color>
-    <color name="messages_icon">#005599</color>
-    <color name="camera_icon">#555555</color>
-    <color name="gallery_icon">#009999</color>
-    <color name="call_icon">#0FA300</color>
-    <color name="contacts_icon">#5444C2</color>
-    <color name="apps_icon">#D1771A</color>
+    <color name="corner_icon">#E3E3E3</color>
 
-    <color name="balloon">#3A3734</color>
-    <color name="background">#131313</color>
+    <color name="messages_icon">#00AEFF</color>
+    <color name="camera_icon">#FFFFFF</color>
+    <color name="gallery_icon">#FFC107</color>
+    <color name="call_icon">#14C302</color>
+    <color name="contacts_icon">#DF47D7</color>
+    <color name="apps_icon">#F69143</color>
 
-    <color name="text">#F5F5DC</color>
+    <color name="background">#252525</color>
 
-    <color name="light_main">#A39379</color>
-    <color name="main">#71695D</color>
-    <color name="dark_main">#5E574C</color>
+    <color name="text">#E3E3E3</color>
+
+    <color name="primary">#515151</color>
+    <color name="secondary">#515151</color>
+    <color name="outline">#1B1B1B</color>
 
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="red">#C10000</color>
+    <color name="red">#E60000</color>
     <color name="brown">#774722</color>
     <color name="orange">#D1771A</color>
     <color name="yellow">#E8BA01</color>

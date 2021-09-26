@@ -40,7 +40,7 @@
     <string name="config_welcome_2">Whenever you want, you can click on me for help.</string>
     <string name="config_welcome_3">That\'s it! Very good.</string>
     <string name="config_welcome_4">Alright, you can stop now.</string>
-    <string name="config_welcome_5">Please, you are hurting me...</string>
+    <string name="config_welcome_5">Please, you are hurting me&#8230;</string>
     <string name="config_welcome_6">Just kidding! You can click on me as much as you want!</string>
     <string name="config_user_1">What should I call you? First name is enough.</string>
     <string name="config_user_2">You can choose your language too.</string>
@@ -180,7 +180,7 @@
     <string name="photo_save_error">An error has occurred. The photo has not been saved.</string>
     <string name="photo_error">An error has occurred while trying to open this photo.</string>
     <string name="no_func_selected">You have not selected any features.</string>
-    <string name="wait">Wait a moment...</string>
+    <string name="wait">Wait a moment&#8230;</string>
     <string name="no_apps_1">You have no applications. Do you want to add one?</string>
     <string name="no_apps_2">You can ask someone for help to install games, for example.</string>
     <string name="add_contact_error">An error occurred. Are you sure you wrote the correct name and phone number?</string>
@@ -260,6 +260,9 @@
     <string name="change">Change</string>
     <string name="topic">Topic</string>
     <string name="language">Language</string>
+    <string name="theme">Theme</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
     <string name="of">of</string>
     <string name="see_more"><u>SEE MORE</u></string>
     <string name="install"><u>INSTALL</u></string>

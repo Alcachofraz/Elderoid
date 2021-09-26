@@ -32,8 +32,6 @@ import java.util.Arrays;
 
 public class LauncherConfigurationActivity extends ElderoidActivity {
 
-    private final int REQUEST_LAUNCHER_CHOOSER = 2;
-
     Netie netie;
 
     @Override
@@ -85,13 +83,11 @@ public class LauncherConfigurationActivity extends ElderoidActivity {
         new ActivityResultCallback<ActivityResult>() {
             @Override
             public void onActivityResult(ActivityResult result) {
-                if (result.getResultCode() == Activity.RESULT_OK) {
-                    if (result.getResultCode() != Activity.RESULT_OK) {
-                        netie.setBalloon(Elderoid.string(R.string.config_error))
-                                .setExpression(R.drawable.netie_concerned);
-                    }
-                    else startActivity(new Intent(getApplicationContext(), MenuActivity.class));
+                if (result.getResultCode() != Activity.RESULT_OK) {
+                    netie.setBalloon(Elderoid.string(R.string.config_error))
+                            .setExpression(R.drawable.netie_concerned);
                 }
+                else startActivity(new Intent(getApplicationContext(), MenuActivity.class));
             }
         }
     );

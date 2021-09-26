@@ -312,6 +312,7 @@ public class MenuActivity extends ElderoidActivity {
         AnimatedImageButton disable = findViewById(R.id.disable);
         AnimatedImageButton gears = findViewById(R.id.gears);
         AnimatedImageButton call_log = findViewById(R.id.call_log);
+        AnimatedImageButton weather = findViewById(R.id.weather);
         flashlight = findViewById(R.id.flashlight);
         View battery_view = findViewById(R.id.battery_view);
         battery_fill_constraint = findViewById(R.id.battery_fill_constraint);
@@ -367,6 +368,7 @@ public class MenuActivity extends ElderoidActivity {
         }
         if (!SimplePrefs.getBoolean(Elderoid.FUNC_FLASHLIGHT)) flashlight.setVisibility(View.GONE);
         if (!SimplePrefs.getBoolean(Elderoid.FUNC_CALLS)) call_log.setVisibility(View.GONE);
+        if (!SimplePrefs.getBoolean(Elderoid.FUNC_WEATHER)) weather.setVisibility(View.GONE);
 
 
 
@@ -435,6 +437,8 @@ public class MenuActivity extends ElderoidActivity {
                 }
             }
         });
+
+        weather.setOnClickRunnable(this::enterWeatherForecast);
 
 
 
