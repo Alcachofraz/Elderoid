@@ -39,7 +39,7 @@ Na  figura seguinte, apresenta-se o fluxograma desta fase. Concentra-se em cinco
 
 ## 4. Website
 
-http://tektonia.com.pt/tekton/usr/elderoid/
+Visit [Elderoid's Website](http://tektonia.com.pt/tekton/usr/elderoid/) to learn more and find our Google Play page.
 
 
 ## 5. Need help?
