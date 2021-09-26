@@ -4,6 +4,8 @@
 
 Observa-se no mundo real que, em muitos casos, os idosos assutam-se com a complexidade de um simples smartphone , e deixam de lado um aparelho que lhes pode ser muito útil. Este projeto procurará disponibilizar aos indivíduos de 3ª idade uma forma (acessível por qualquer um) de usufruirem de um dispositivo Android conforme as suas necessidades. Se a única necessidade for realizar chamadas telefónicas, o dispositivo não incomodará o utilizador com a meteorologia, disponibilizando apenas a funcionalidade pretendida. Será desenvolvido um software para o Sistema Android com uma interface  adequada e flexível nesse sentido.
 
+Visit [Elderoid's Website](http://tektonia.com.pt/tekton/usr/elderoid/index.html) to learn more and find our Google Play page.
+
 
 ## 1. Introduction
 
