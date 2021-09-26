@@ -228,7 +228,7 @@
     <string name="no_photos">Não tens nenhuma foto guardada. Queres tirar uma?</string>
     <string name="number_not_valid">Esse número de telefone não é válido.</string>
     <string name="of">de</string>
-    <string name="permission_list">O Elderoid irá:\n\t1. Aceder aos contatos;\n\t2. Realizar e gerir chamadas;\n\t3. Aceder ao registo de chamadas;\n\t4. Aceder à câmera;\n\t5. Aceder à localização;\n\t6. Aceder aos ficheiros.</string>
+    <string name="permission_list">O Elderoid irá:\n\t1. Aceder aos contatos;\n\t2. Realizar e gerir chamadas;\n\t3. Aceder à câmera;\n\t4. Aceder à localização;\n\t5. Aceder aos ficheiros.</string>
     <string name="phone">Telefone</string>
     <string name="phone_contact">Preferes ligar para um contacto conhecido?</string>
     <string name="photo_canceled">Saíste da câmera. Não tiraste nenhuma foto.</string>

@@ -75,7 +75,7 @@
     <string name="config_accept_reject">Click %s to use this feature. Click %s otherwise.</string>
 
     <!-- Permissions -->
-    <string name="permission_list">Elderoid will:\n\t1. Access contacts;\n\t2. Make and manage phone calls;\n\t3. Access phone call logs;\n\t4. Access camera;\n\t5. Access location;\n\t6. Access photos and media.</string>
+    <string name="permission_list">Elderoid will:\n\t1. Access contacts;\n\t2. Make and manage phone calls;\n\t3. Access camera;\n\t4. Access location;\n\t5. Access photos and media.</string>
     <string name="elderoid_will">Elderoid will:</string>
 
     <!-- Activity information -->

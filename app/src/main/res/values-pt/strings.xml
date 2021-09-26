@@ -75,7 +75,7 @@
     <string name="config_accept_reject">Clica em %s para utilizares esta funcionalidade. Clica em %s caso contrário.</string>
 
     <!-- Permissions -->
-    <string name="permission_list">O Elderoid irá:\n\t1. Aceder aos contatos;\n\t2. Realizar e gerir chamadas;\n\t3. Aceder ao registo de chamadas;\n\t4. Aceder à câmera;\n\t5. Aceder à localização;\n\t6. Aceder aos ficheiros.</string>
+    <string name="permission_list">O Elderoid irá:\n\t1. Aceder aos contatos;\n\t2. Realizar e gerir chamadas;\n\t3. Aceder à câmera;\n\t4. Aceder à localização;\n\t5. Aceder aos ficheiros.</string>
     <string name="elderoid_will">O Elderoid irá:</string>
 
     <!-- Activity information -->
