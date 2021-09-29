@@ -1,11 +1,19 @@
 [
     {
+        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-anydpi-v21_ic_dark.xml.flat",
+        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-anydpi-v21\\ic_dark.xml"
+    },
+    {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_ic_check.png.flat",
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-xhdpi\\ic_check.png"
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_lang_configuration.xml.flat",
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\layout\\activity_lang_configuration.xml"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_ic_dark.png.flat",
+        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-mdpi\\ic_dark.png"
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_ic_charge_warning.png.flat",
@@ -30,10 +38,6 @@
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_dialer.xml.flat",
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\layout\\activity_dialer.xml"
-    },
-    {
-        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_checkbox_checked.png.flat",
-        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-xhdpi\\checkbox_checked.png"
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi_ic_call_made.png.flat",
@@ -132,12 +136,16 @@
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\drawable-xhdpi\\ic_pencil.png"
     },
     {
+        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_light.png.flat",
+        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-hdpi\\ic_light.png"
+    },
+    {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable_battery.xml.flat",
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\drawable\\battery.xml"
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_ic_back.png.flat",
-        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\drawable-xhdpi\\ic_back.png"
+        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-xhdpi\\ic_back.png"
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi_ic_thrash.png.flat",
@@ -172,10 +180,6 @@
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-hdpi\\ic_news.png"
     },
     {
-        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_checkbox_checked.png.flat",
-        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-mdpi\\checkbox_checked.png"
-    },
-    {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_newspaper.png.flat",
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\drawable-hdpi\\ic_newspaper.png"
     },
@@ -208,8 +212,16 @@
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\layout\\activity_weather_configuration.xml"
     },
     {
+        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-anydpi-v21_ic_light.xml.flat",
+        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-anydpi-v21\\ic_light.xml"
+    },
+    {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_photos_configuration.xml.flat",
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\layout\\activity_photos_configuration.xml"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi_ic_dark.png.flat",
+        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\ic_dark.png"
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_user_configuration.xml.flat",
@@ -256,6 +268,10 @@
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\ic_call_missed.png"
     },
     {
+        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi_ic_light.png.flat",
+        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\ic_light.png"
+    },
+    {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-anydpi-v21_ic_eraser.xml.flat",
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-anydpi-v21\\ic_eraser.xml"
     },
@@ -284,10 +300,6 @@
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-anydpi-v21\\ic_gallery.xml"
     },
     {
-        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_checkbox_checked.png.flat",
-        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-xxhdpi\\checkbox_checked.png"
-    },
-    {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi_ic_calendar.png.flat",
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\ic_calendar.png"
     },
@@ -296,16 +308,8 @@
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-hdpi\\ic_dashed_arrow.png"
     },
     {
-        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi_checkbox_checked.png.flat",
-        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\checkbox_checked.png"
-    },
-    {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_ic_call.png.flat",
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\drawable-mdpi\\ic_call.png"
-    },
-    {
-        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-anydpi-v21_checkbox_unchecked.xml.flat",
-        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-anydpi-v21\\checkbox_unchecked.xml"
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_ic_cross.png.flat",
@@ -317,7 +321,7 @@
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_weather.png.flat",
-        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\drawable-hdpi\\ic_weather.png"
+        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-hdpi\\ic_weather.png"
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_netie_happy.png.flat",
@@ -344,12 +348,8 @@
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-xxhdpi\\ic_flashlight.png"
     },
     {
-        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_checkbox_unchecked.png.flat",
-        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-xhdpi\\checkbox_unchecked.png"
-    },
-    {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_ic_weather.png.flat",
-        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\drawable-mdpi\\ic_weather.png"
+        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-mdpi\\ic_weather.png"
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_ic_loading.png.flat",
@@ -417,7 +417,11 @@
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_ic_back.png.flat",
-        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_back.png"
+        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-xxxhdpi\\ic_back.png"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_ic_dark.png.flat",
+        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-xhdpi\\ic_dark.png"
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_add_contact.xml.flat",
@@ -450,10 +454,6 @@
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi_ic_contacts.png.flat",
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\ic_contacts.png"
-    },
-    {
-        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi_checkbox_unchecked.png.flat",
-        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\checkbox_unchecked.png"
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi_ic_eraser.png.flat",
@@ -493,7 +493,7 @@
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_back.png.flat",
-        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\drawable-xxhdpi\\ic_back.png"
+        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-xxhdpi\\ic_back.png"
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_permissions_configuration.xml.flat",
@@ -536,6 +536,10 @@
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\drawable-hdpi\\ic_call_made.png"
     },
     {
+        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_ic_light.png.flat",
+        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-xxxhdpi\\ic_light.png"
+    },
+    {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_ic_call.png.flat",
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\drawable-xhdpi\\ic_call.png"
     },
@@ -568,12 +572,8 @@
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\layout\\activity_missed_calls.xml"
     },
     {
-        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_checkbox_unchecked.png.flat",
-        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-xxhdpi\\checkbox_unchecked.png"
-    },
-    {
-        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_checkbox_unchecked.png.flat",
-        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-xxxhdpi\\checkbox_unchecked.png"
+        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-anydpi-v24_ic_back.xml.flat",
+        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-anydpi-v24\\ic_back.xml"
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\anim_medium_scale_down.xml.flat",
@@ -582,10 +582,6 @@
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_checkbox_unchecked.png.flat",
-        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-mdpi\\checkbox_unchecked.png"
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_contacts.png.flat",
@@ -622,6 +618,10 @@
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\layout_row_checkbox_text.xml.flat",
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\layout\\row_checkbox_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_dark.png.flat",
+        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-hdpi\\ic_dark.png"
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_apps.png.flat",
@@ -692,10 +692,6 @@
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\layout\\reject_accept.xml"
     },
     {
-        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_checkbox_checked.png.flat",
-        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-hdpi\\checkbox_checked.png"
-    },
-    {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_cross.png.flat",
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-hdpi\\ic_cross.png"
     },
@@ -760,12 +756,12 @@
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-xhdpi\\ic_cross.png"
     },
     {
-        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-anydpi-v21_ic_call_made.xml.flat",
-        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-anydpi-v21\\ic_call_made.xml"
+        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_ic_dark.png.flat",
+        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-xxxhdpi\\ic_dark.png"
     },
     {
-        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_checkbox_checked.png.flat",
-        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-xxxhdpi\\checkbox_checked.png"
+        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-anydpi-v21_ic_call_made.xml.flat",
+        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-anydpi-v21\\ic_call_made.xml"
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable_balloon.xml.flat",
@@ -872,6 +868,10 @@
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-anydpi-v21\\ic_contacts.xml"
     },
     {
+        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi_ic_back.png.flat",
+        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\ic_back.png"
+    },
+    {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_bolt.png.flat",
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\drawable-hdpi\\bolt.png"
     },
@@ -894,10 +894,6 @@
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\xml_provider_paths.xml.flat",
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\xml\\provider_paths.xml"
-    },
-    {
-        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable_checkbox.xml.flat",
-        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\drawable\\checkbox.xml"
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_ic_charge_warning_bold.png.flat",
@@ -948,6 +944,10 @@
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-xxxhdpi\\ic_call_missed.png"
     },
     {
+        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_ic_light.png.flat",
+        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-xhdpi\\ic_light.png"
+    },
+    {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_delete.png.flat",
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\drawable-xxhdpi\\ic_delete.png"
     },
@@ -986,10 +986,6 @@
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_flashlight_configuration.xml.flat",
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\layout\\activity_flashlight_configuration.xml"
-    },
-    {
-        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_checkbox_unchecked.png.flat",
-        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-hdpi\\checkbox_unchecked.png"
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_contact_list.xml.flat",
@@ -1032,6 +1028,10 @@
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-xxxhdpi\\ic_check.png"
     },
     {
+        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_ic_back.png.flat",
+        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-mdpi\\ic_back.png"
+    },
+    {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_ic_thrash.png.flat",
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-xxxhdpi\\ic_thrash.png"
     },
@@ -1042,6 +1042,10 @@
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_light.png.flat",
+        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-xxhdpi\\ic_light.png"
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\layout_row_topic_checkbox.xml.flat",
@@ -1057,7 +1061,7 @@
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_ic_weather.png.flat",
-        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\drawable-xhdpi\\ic_weather.png"
+        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-xhdpi\\ic_weather.png"
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_ic_dashed_arrow.png.flat",
@@ -1116,10 +1120,6 @@
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-anydpi-v21\\ic_camera.xml"
     },
     {
-        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-anydpi-v21_checkbox_checked.xml.flat",
-        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-anydpi-v21\\checkbox_checked.xml"
-    },
-    {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_dashed_arrow.png.flat",
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-xxhdpi\\ic_dashed_arrow.png"
     },
@@ -1146,6 +1146,10 @@
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\layout_dialog_temp_scale.xml.flat",
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\layout\\dialog_temp_scale.xml"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_dark.png.flat",
+        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-xxhdpi\\ic_dark.png"
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable_flashlight_button.xml.flat",
@@ -1193,7 +1197,7 @@
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_weather.png.flat",
-        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\drawable-xxhdpi\\ic_weather.png"
+        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-xxhdpi\\ic_weather.png"
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_ic_game.png.flat",
@@ -1201,7 +1205,7 @@
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_back.png.flat",
-        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\drawable-hdpi\\ic_back.png"
+        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-hdpi\\ic_back.png"
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_charge_warning_bold.png.flat",
@@ -1210,6 +1214,10 @@
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_camera.png.flat",
         "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\src\\main\\res\\drawable-hdpi\\ic_camera.png"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_ic_light.png.flat",
+        "source": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\generated\\res\\pngs\\release\\drawable-mdpi\\ic_light.png"
     },
     {
         "merged": "C:\\Users\\pedro\\Desktop\\Projetos\\Android Apps\\Elderoid\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_ic_loading.png.flat",

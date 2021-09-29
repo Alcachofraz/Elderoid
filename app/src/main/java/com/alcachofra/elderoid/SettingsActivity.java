@@ -37,6 +37,7 @@ public class SettingsActivity extends ElderoidActivity {
         AppCompatButton launcher = findViewById(R.id.launcher);
         AppCompatButton functionalities = findViewById(R.id.functionalities);
         AppCompatButton name = findViewById(R.id.name);
+        AppCompatButton theme = findViewById(R.id.theme);
         SwitchCompat temp_switch = findViewById(R.id.temp_switch);
         View temp_choose_view = findViewById(R.id.temp_choose_view);
         AppCompatButton lang = findViewById(R.id.lang);
@@ -61,6 +62,8 @@ public class SettingsActivity extends ElderoidActivity {
         lang.setOnClickListener(v -> chooseLanguage());
 
         launcher.setOnClickListener(v -> chooseLauncher());
+
+        theme.setOnClickListener(v -> startActivity(new Intent(Settings.ACTION_DISPLAY_SETTINGS)));
 
         functionalities.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), FeaturesConfigurationActivity.class)));
 
