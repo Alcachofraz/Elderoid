@@ -1,5 +1,24 @@
 # Elderoid
 
+<!-- Put this code anywhere in the body of your page where you want the badge to show up. -->
+
+<div itemscope itemtype='http://schema.org/Person' class='fiverr-seller-widget' style='display: inline-block;'>
+     <a itemprop='url' href=https://www.fiverr.com/alcachofraz rel="nofollow" target="_blank" style='display: inline-block;'>
+        <div class='fiverr-seller-content' id='fiverr-seller-widget-content-5487ff79-3ac4-4425-baa9-98288ad45c8e' itemprop='contentURL' style='display: none;'></div>
+        <div id='fiverr-widget-seller-data' style='display: none;'>
+            <div itemprop='name' >alcachofraz</div>
+            <div itemscope itemtype='http://schema.org/Organization'><span itemprop='name'>Fiverr</span></div>
+            <div itemprop='jobtitle'>Seller</div>
+            <div itemprop='description'>I graduated in Computers, Telecomunications and Electronics Engeneering, and I am currently graduating a Master's Degree on Software Engineering and Multimedia.
+
+I offer a very methodical approach to any project, resulting on a product that is very easy to mantain and upgrade. I am very confident with Java, Dart, Flutter, Python, C. I want to collaborate and communicate with you, in order to fully understand the requirements and offer the most pleasant and flawless product possible. I am very motivated and I will make your idea come to life.</div>
+        </div>
+    </a>
+</div>
+
+<script id='fiverr-seller-widget-script-5487ff79-3ac4-4425-baa9-98288ad45c8e' src='https://widgets.fiverr.com/api/v1/seller/alcachofraz?widget_id=5487ff79-3ac4-4425-baa9-98288ad45c8e' data-config='{"category_name":"Programming \u0026 Tech"}' async='true' defer='true'></script>
+
+
 ## Resumo
 
 Observa-se no mundo real que, em muitos casos, os idosos assutam-se com a complexidade de um simples smartphone , e deixam de lado um aparelho que lhes pode ser muito útil. Este projeto procurará disponibilizar aos indivíduos de 3ª idade uma forma (acessível por qualquer um) de usufruirem de um dispositivo Android conforme as suas necessidades. Se a única necessidade for realizar chamadas telefónicas, o dispositivo não incomodará o utilizador com a meteorologia, disponibilizando apenas a funcionalidade pretendida. Será desenvolvido um software para o Sistema Android com uma interface  adequada e flexível nesse sentido.
